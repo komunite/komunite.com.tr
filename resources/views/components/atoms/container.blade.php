@@ -1,0 +1,1 @@
+<div {{ $attributes->class('lg:max-w-6xl mx-auto px-4 xl:px-0') }}>{{ $slot }}</div>
