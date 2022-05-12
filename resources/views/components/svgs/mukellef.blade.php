@@ -1,0 +1,1 @@
+<img {{$attributes}} src="{{asset('img/mukellef.svg')}}">

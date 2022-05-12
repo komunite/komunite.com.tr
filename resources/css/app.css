@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply selection:bg-ghost selection:text-almost-black;
+}
+
+.floating-wrapper {
+    @apply relative py-1 border-b-4 border-solid border-almost-black;
+}
+
+.floating-wrapper .floating-input {
+    @apply block w-full appearance-none focus:outline-none bg-transparent placeholder:text-transparent pr-4 font-medium;
+}
+
+.floating-wrapper label {
+    @apply absolute top-0 duration-300 origin-left text-lg md:text-xxl xl:text-2.25xl xl:leading-snug pointer-events-none;
+}
+
+.floating-wrapper .floating-input:focus-within ~ label,
+.floating-wrapper .floating-input:not(:placeholder-shown) ~ label {
+    @apply transform scale-75 -translate-y-6;
+}
+
+.floating-wrapper .floating-input:focus-within ~ label {
+    @apply text-almost-black;
+}
+
+.aside-modal[open] > summary {
+    @apply before:fixed before:top-0 before:left-0 before:w-full before:h-screen before:bg-almost-black before:opacity-25 before:z-20 before:select-none;
+}
+
+.details > summary {
+    @apply cursor-pointer;
+}
+
+.details > summary::-webkit-details-marker,
+.details > summary::marker {
+    @apply hidden content-none;
+}
+
+.aside-modal[open] aside {
+    @apply right-0;
+}
+
+.header-bounce {
+    animation: headerBounce 1s normal;
+    animation-delay: 3s;
+}
+
+.stop-animation {
+    animation-play-state: paused;
+}
+
+@keyframes headerBounce {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-3%);
+    }
+}
