@@ -8,13 +8,13 @@
             <TitleH4Atom title="Learn from expert professionals and join the largest online community for creatives." />
             <div className="self-start space-y-5 md:space-y-0 md:space-x-7.5">
                 <a href="#" title="Eğitimler" className="inline-block bg-white text-almost-black uppercase whitespace-nowrap rounded-lg text-center font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10">Eğitimler</a>
-                <x-atoms.button href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
+                <ButtonAtom href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
             </div>
         </ContainerAtom>
     </section>
     <section className="mb-10 md:mb-15 lg:mb-20">
         <ContainerAtom>
-            <x-atoms.lead-regular content="Öne çıkan eğitimler" className="font-bold mb-2.5" />
+            <LeadRegularAtom content="Öne çıkan eğitimler" className="font-bold mb-2.5" />
             <TitleH4Atom title="Learn from expert professionals and join the largest online community for creatives." className="mb-7.5 md:mb-10" />
             <div className="grid gap-y-5 md:gap-y-0 md:grid-cols-3 md:gap-x-3.5 lg:gap-x-7.5">
                 <div>
@@ -27,7 +27,7 @@
                             <BodyNoteAtom content="Barış Güleç" />
                             <div className="text-neptune flex items-center gap-y-1.5">
                                 <figure>
-                                    <x-svgs.bookmark className="h-4" />
+                                    <SVGbookmark className="h-4" />
                                 </figure>
                                 <span className="font-bold">Yazarlık</span>
                             </div>
@@ -47,7 +47,7 @@
                             <BodyNoteAtom content="Barış Güleç" />
                             <div className="text-neptune flex items-center gap-y-1.5">
                                 <figure>
-                                    <x-svgs.bookmark className="h-4" />
+                                    <SVGbookmark className="h-4" />
                                 </figure>
                                 <span className="font-bold">Yazarlık</span>
                             </div>
@@ -67,7 +67,7 @@
                             <BodyNoteAtom content="Barış Güleç" />
                             <div className="text-neptune flex items-center gap-y-1.5">
                                 <figure>
-                                    <x-svgs.bookmark className="h-4" />
+                                    <SVGbookmark className="h-4" />
                                 </figure>
                                 <span className="font-bold">Yazarlık</span>
                             </div>
@@ -89,7 +89,7 @@
             <div className="grid lg:grid-cols-2 md:gap-x-7.5 gap-y-7.5 md:gap-y-10">
                 <div className="flex gap-x-5 md:gap-x-7.5">
                     <figure>
-                        <x-svgs.expecting-1 className="object-cover text-neptune h-12 md:h-18" />
+                        <SVGExpecting1 className="object-cover text-neptune h-12 md:h-18" />
                     </figure>
                     <div className="space-y-2 md:space-y-2.5">
                         <BodyBoldAtom content="Learn at your own pace" />
@@ -98,7 +98,7 @@
                 </div>
                 <div className="flex gap-x-5 md:gap-x-7.5">
                     <figure>
-                        <x-svgs.expecting-2 className="object-cover text-neptune h-12 md:h-18" />
+                        <SVGExpecting2 className="object-cover text-neptune h-12 md:h-18" />
                     </figure>
                     <div className="space-y-2 md:space-y-2.5">
                         <BodyBoldAtom content="Get front row seats" />
@@ -107,7 +107,7 @@
                 </div>
                 <div className="flex gap-x-5 md:gap-x-7.5">
                     <figure>
-                        <x-svgs.expecting-3 className="object-cover text-neptune h-12 md:h-18" />
+                        <SVGExpecting3 className="object-cover text-neptune h-12 md:h-18" />
                     </figure>
                     <div className="space-y-2 md:space-y-2.5">
                         <BodyBoldAtom content="Learn from the best professionals" />
@@ -116,7 +116,7 @@
                 </div>
                 <div className="flex gap-x-5 md:gap-x-7.5">
                     <figure>
-                        <x-svgs.expecting-4 className="object-cover text-neptune h-12 md:h-18" />
+                        <SVGExpecting4 className="object-cover text-neptune h-12 md:h-18" />
                     </figure>
                     <div className="space-y-2 md:space-y-2.5">
                         <BodyBoldAtom content="Share knowledge and ideas" />
@@ -125,7 +125,7 @@
                 </div>
                 <div className="flex gap-x-5 md:gap-x-7.5">
                     <figure>
-                        <x-svgs.expecting-2 className="object-cover text-neptune h-12 md:h-18" />
+                        <SVGExpecting2 className="object-cover text-neptune h-12 md:h-18" />
                     </figure>
                     <div className="space-y-2 md:space-y-2.5">
                         <BodyBoldAtom content="Get front row seats" />
@@ -134,7 +134,7 @@
                 </div>
                 <div className="flex gap-x-5 md:gap-x-7.5">
                     <figure>
-                        <x-svgs.expecting-1 className="object-cover text-neptune h-12 md:h-18" />
+                        <SVGExpecting1 className="object-cover text-neptune h-12 md:h-18" />
                     </figure>
                     <div className="space-y-2 md:space-y-2.5">
                         <BodyBoldAtom content="Learn at your own pace" />
@@ -143,7 +143,7 @@
                 </div>
                 <div className="flex gap-x-5 md:gap-x-7.5">
                     <figure>
-                        <x-svgs.expecting-4 className="object-cover text-neptune h-12 md:h-18" />
+                        <SVGExpecting4 className="object-cover text-neptune h-12 md:h-18" />
                     </figure>
                     <div className="space-y-2 md:space-y-2.5">
                         <BodyBoldAtom content="Share knowledge and ideas" />
@@ -152,7 +152,7 @@
                 </div>
                 <div className="flex gap-x-5 md:gap-x-7.5">
                     <figure>
-                        <x-svgs.expecting-3 className="object-cover text-neptune h-12 md:h-18" />
+                        <SVGExpecting3 className="object-cover text-neptune h-12 md:h-18" />
                     </figure>
                     <div className="space-y-2 md:space-y-2.5">
                         <BodyBoldAtom content="Learn from the best professionals" />
@@ -175,7 +175,7 @@
                 <div className="bg-ghost space-y-5 lg:space-y-7.5 p-5 sm:p-7.5 lg:p-10 rounded-lg">
                     <figure>
                         <a href="/" title="Komünite">
-                            <x-svgs.logo className="h-8 lg:h-10 xl:h-11.5" />
+                            <SVGlogo className="h-8 lg:h-10 xl:h-11.5" />
                         </a>
                     </figure>
                     <TitleH2Atom title="Bir defa yap,
@@ -215,7 +215,7 @@
                             sahip olursunuz.
                         </p>
                     </div>
-                    <x-atoms.button href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
+                    <ButtonAtom href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
                     <div className="space-y-3.5 lg:space-y-5">
                         <p className="font-bold text-xxl md:text-2xl lg:text-2.25xl md:leading-snug">
                             Üyelik ücreti yıllık 1000 TL olarak belirlenmiştir.

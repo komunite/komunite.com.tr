@@ -33,7 +33,7 @@
                             <img loading="lazy" src="img/helo.png" alt="Helo" className=" object-cover h-10">
                         </figure>
                     </div>
-                    <x-atoms.button href="#" title="Hemen Başvurun"
+                    <ButtonAtom href="#" title="Hemen Başvurun"
                         className="self-start font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
                 </div>
                 <figure className="justify-self-center lg:justify-self-start">
@@ -47,7 +47,7 @@
         <ContainerAtom>
             <div className="flex flex-col items-center text-center gap-y-7.5 lg:gap-y-10 px-5 md:px-15 lg:px-25">
                 <TitleH2Atom title="Program detayları" />
-                <x-atoms.lead-regular
+                <LeadRegularAtom
                     content="Zaman, sahip olduğumuz en önemli para birimidir. Günde 8 saat, her gün aynı işi yapıp, yılda bir defa zam almaktan sıkılmadınız mı? Zamanı ölçeklemek mümkün değil. Ürün geliştirmeye başlayın." />
                 <iframe className="w-full aspect-video" src="https://www.youtube.com/embed/GuGdTm4RXX8"
                     title="YouTube video player" frameborder="0"
@@ -190,7 +190,7 @@
             <div className="grid lg:grid-cols-2 md:gap-x-7.5 gap-y-7.5 md:gap-y-10">
                 <div className="flex gap-x-5 md:gap-x-7.5">
                     <figure>
-                        <x-svgs.expecting-1 className="object-cover text-neptune h-12 md:h-18" />
+                        <SVGExpecting1 className="object-cover text-neptune h-12 md:h-18" />
                     </figure>
                     <div className="space-y-2 md:space-y-2.5">
                         <BodyBoldAtom content="Learn at your own pace" />
@@ -200,7 +200,7 @@
                 </div>
                 <div className="flex gap-x-5 md:gap-x-7.5">
                     <figure>
-                        <x-svgs.expecting-2 className="object-cover text-neptune h-12 md:h-18" />
+                        <SVGExpecting2 className="object-cover text-neptune h-12 md:h-18" />
                     </figure>
                     <div className="space-y-2 md:space-y-2.5">
                         <BodyBoldAtom content="Get front row seats" />
@@ -210,7 +210,7 @@
                 </div>
                 <div className="flex gap-x-5 md:gap-x-7.5">
                     <figure>
-                        <x-svgs.expecting-3 className="object-cover text-neptune h-12 md:h-18" />
+                        <SVGExpecting3 className="object-cover text-neptune h-12 md:h-18" />
                     </figure>
                     <div className="space-y-2 md:space-y-2.5">
                         <BodyBoldAtom content="Learn from the best professionals" />
@@ -220,7 +220,7 @@
                 </div>
                 <div className="flex gap-x-5 md:gap-x-7.5">
                     <figure>
-                        <x-svgs.expecting-4 className="object-cover text-neptune h-12 md:h-18" />
+                        <SVGExpecting4 className="object-cover text-neptune h-12 md:h-18" />
                     </figure>
                     <div className="space-y-2 md:space-y-2.5">
                         <BodyBoldAtom content="Share knowledge and ideas" />
@@ -230,7 +230,7 @@
                 </div>
                 <div className="flex gap-x-5 md:gap-x-7.5">
                     <figure>
-                        <x-svgs.expecting-2 className="object-cover text-neptune h-12 md:h-18" />
+                        <SVGExpecting2 className="object-cover text-neptune h-12 md:h-18" />
                     </figure>
                     <div className="space-y-2 md:space-y-2.5">
                         <BodyBoldAtom content="Get front row seats" />
@@ -240,7 +240,7 @@
                 </div>
                 <div className="flex gap-x-5 md:gap-x-7.5">
                     <figure>
-                        <x-svgs.expecting-1 className="object-cover text-neptune h-12 md:h-18" />
+                        <SVGExpecting1 className="object-cover text-neptune h-12 md:h-18" />
                     </figure>
                     <div className="space-y-2 md:space-y-2.5">
                         <BodyBoldAtom content="Learn at your own pace" />
@@ -250,7 +250,7 @@
                 </div>
                 <div className="flex gap-x-5 md:gap-x-7.5">
                     <figure>
-                        <x-svgs.expecting-4 className="object-cover text-neptune h-12 md:h-18" />
+                        <SVGExpecting4 className="object-cover text-neptune h-12 md:h-18" />
                     </figure>
                     <div className="space-y-2 md:space-y-2.5">
                         <BodyBoldAtom content="Share knowledge and ideas" />
@@ -260,7 +260,7 @@
                 </div>
                 <div className="flex gap-x-5 md:gap-x-7.5">
                     <figure>
-                        <x-svgs.expecting-3 className="object-cover text-neptune h-12 md:h-18" />
+                        <SVGExpecting3 className="object-cover text-neptune h-12 md:h-18" />
                     </figure>
                     <div className="space-y-2 md:space-y-2.5">
                         <BodyBoldAtom content="Learn from the best professionals" />
@@ -278,7 +278,7 @@
             <p className="text-lg md:text-1xl mb-7.5">
                 Günde 8 saat, her gün aynı işi yapıp, yılda bir defa zam almaktan sıkılmadınız mı?
             </p>
-            <x-atoms.button href="#" title="Hemen Başvurun"
+            <ButtonAtom href="#" title="Hemen Başvurun"
                 className="font-bold text-xl md:text-1xl xl:text-2xl py-3 px-6 lg:py-3.5 lg:px-7.5" />
         </ContainerAtom>
     </section>

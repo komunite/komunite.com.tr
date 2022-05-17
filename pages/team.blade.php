@@ -7,7 +7,7 @@
                     <div className="flex flex-wrap gap-y-5 gap-x-5 xl:gap-x-7.5">
                         @foreach (['Yaratıcı Ekonomisi', 'Topluluk Yönetimi', 'Girişimcilik', 'Büyük İstifa', 'Yatırımcılık', 'NFT', 'Micro-SaaS', 'Uzaktan Çalışma'] as $item)
                         <div className="font-bold text-lg md:text-1xl flex items-center justify-center py-2 md:py-3 px-4 md:px-5 xl:px-7 border-2 border-solid border-almost-black rounded-lg whitespace-nowrap transition-all hover:bg-almost-black hover:text-bright">
-                            {{ $item }}</div>
+                            {item }}</div>
                         @endforeach
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                 <p className="text-lg md:text-1xl mb-7.5">
                     Günde 8 saat, her gün aynı işi yapıp, yılda bir defa zam almaktan sıkılmadınız mı?
                 </p>
-                <x-atoms.button href="#" title="Kariyer Fırsatları" className="font-bold text-xl md:text-1xl xl:text-2xl py-3 px-6 lg:py-3.5 lg:px-7.5" />
+                <ButtonAtom href="#" title="Kariyer Fırsatları" className="font-bold text-xl md:text-1xl xl:text-2xl py-3 px-6 lg:py-3.5 lg:px-7.5" />
             </div>
         </ContainerAtom>
     </section>
@@ -72,7 +72,7 @@
             <p className="text-lg md:text-1xl mb-7.5">
                 Türkiye’de yaratıcı ekonomisinin kalbinde yer almak ister misiniz?
             </p>
-            <x-atoms.button href="{{ route('career') }}" title="Kariyer Fırsatları" className="font-bold text-xl md:text-1xl xl:text-2xl py-3 px-6 lg:py-3.5 lg:px-7.5" />
+            <ButtonAtom href="{{ route('career') }title="Kariyer Fırsatları" className="font-bold text-xl md:text-1xl xl:text-2xl py-3 px-6 lg:py-3.5 lg:px-7.5" />
         </ContainerAtom>
     </section>
     <x-organisms.newsletter />

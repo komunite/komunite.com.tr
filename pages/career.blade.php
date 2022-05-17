@@ -6,7 +6,7 @@
                 <p className="text-lg md:text-1xl">
                     Değerlerimiz seni heyecanlandırıyorsa, ekibimize katıl!
                 </p>
-                <x-atoms.button href="{{route('about')}}" title="Komünite Hakkında" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
+                <ButtonAtom href="{{route('about')}title="Komünite Hakkında" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
             </div>
             <figure className="justify-self-center lg:justify-self-start">
                 <img loading="lazy" src="img/career-illustration.svg" alt="Career Illustration" className="h-80 lg:h-full w-full object-cover">
@@ -20,35 +20,35 @@
                 <x-molecules.career-card company="Komünite" location="Türkiye, USA" title="Social Media Manager
                 ">
                     <figure>
-                        <x-svgs.komunite-square className="h-16 w-16 rounded" />
+                        <SVGkomunite-square className="h-16 w-16 rounded" />
                     </figure>
                     <x-slot name="slotDesc">
                         <p>
                             Komünite’nin dışa açılan tüm iletişimini yönetecek, sosyal medya stratejisini geliştirecek ve sosyal medya iletişimini yönetecek, operasyonel bir sosyal medya yöneticisi arıyoruz.
                         </p>
-                        <x-atoms.button href="{{route('komunite-social-media-manager')}}" title="Başvurun" className="font-bold md:text-xl lg:text-1xl py-3 px-6 md:py-3.5 md:px-7" />
+                        <ButtonAtom href="{{route('komunite-social-media-manager')}title="Başvurun" className="font-bold md:text-xl lg:text-1xl py-3 px-6 md:py-3.5 md:px-7" />
                     </x-slot>
                 </x-molecules.career-card>
                 <x-molecules.career-card company="Komünite" location="Türkiye, USA" title="Growth Product Manager">
                     <figure>
-                        <x-svgs.komunite-square className="h-16 w-16 rounded" />
+                        <SVGkomunite-square className="h-16 w-16 rounded" />
                     </figure>
                     <x-slot name="slotDesc">
                         <p>
                             Komünite’nin fonladığı ürünlerin büyümesinden sorumlu olacak ve büyüme ekibini yönetecek, operasyonel bir büyüme uzmanı arıyoruz.
                         </p>
-                        <x-atoms.button href="{{route('komunite-growth-product-manager')}}" title="Başvurun" className="font-bold md:text-xl lg:text-1xl py-3 px-6 md:py-3.5 md:px-7" />
+                        <ButtonAtom href="{{route('komunite-growth-product-manager')}title="Başvurun" className="font-bold md:text-xl lg:text-1xl py-3 px-6 md:py-3.5 md:px-7" />
                     </x-slot>
                 </x-molecules.career-card>
                 <x-molecules.career-card company="The Bülten" location="Türkiye, USA" title="Editor-at-Large">
                     <figure>
-                        <x-svgs.the-bulten-mini className="h-16 w-16 rounded" />
+                        <SVGthe-bulten-mini className="h-16 w-16 rounded" />
                     </figure>
                     <x-slot name="slotDesc">
                         <p>
                             The Bülten isimli, kuruluş aşamasında olan içerik platformunun liderliğini yapacak ve editoryal dilini belirleyecek olan deneyimli bir editör arıyoruz.
                         </p>
-                        <x-atoms.button href="{{route('the-bulten-editor-at-large')}}" title="Başvurun" className="font-bold md:text-xl lg:text-1xl py-3 px-6 md:py-3.5 md:px-7" />
+                        <ButtonAtom href="{{route('the-bulten-editor-at-large')}title="Başvurun" className="font-bold md:text-xl lg:text-1xl py-3 px-6 md:py-3.5 md:px-7" />
                     </x-slot>
                 </x-molecules.career-card>
             </div>

@@ -10,7 +10,7 @@
                 <summary className="cursor-pointer text-lg md:text-xxl xl:text-2.25xl xl:leading-snug font-bold flex justify-between gap-x-2 items-center">
                     How do I get Windows 11?
                     <figure>
-                        <x-svgs.plus className="h-6 md:h-8" />
+                        <SVGplus className="h-6 md:h-8" />
                     </figure>
                 </summary>
                 <p className="md:text-xl lg:text-1xl mt-5">When Windows 11 is ready for your device, it will be available to download and install from the Windows Update page in Settings. Choose a time that works best for you to install the upgrade. You'll then need to restart your device and complete the installation. After that, your device will be running Windows 11.</p>

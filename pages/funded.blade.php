@@ -6,11 +6,11 @@
                 <TitleH4Atom title="Katma Değer Fonu, yaratıcı sektörlerde çalışan profesyoneller için bir mikro yatırım fonudur." />
                 <div className="flex flex-col items-start gap-y-5 md:gap-y-0 md:flex-row md:gap-x-7.5">
                     <div title="Venture Building” modeli" className="bg-neptune rounded-lg text-center font-bold md:text-xl lg:text-1xl py-2.5 md:py-3 px-4 flex items-center justify-center gap-x-2.5">“Venture Building” modeli
-                        <x-svgs.arrow-right className="h-8.5 w-8.5" />
+                        <SVGarrow-right className="h-8.5 w-8.5" />
                     </div>
                     <div className="bg-ghost rounded-lg text-center font-bold md:text-xl lg:text-1xl py-2.5 md:py-3 px-4 flex items-center justify-center gap-x-2.5">“Service
                         for Equity” modeli
-                        <x-svgs.arrow-right className="h-8.5 w-8.5" />
+                        <SVGarrow-right className="h-8.5 w-8.5" />
                     </div>
                 </div>
             </div>
@@ -23,10 +23,10 @@
         <ContainerAtom className="space-y-7.5 md:space-y-10 lg:space-y-15">
             <div className="flex flex-col gap-y-3.5 md:gap-y-0 md:flex-row md:gap-x-7.5 md:items-center">
                 <TitleH2Atom title="Venture Building" />
-                {{-- <a href="{{ route('venture-building') }}" title="Detaylı bilgi" className="md:text-xl lg:text-1xl flex items-center gap-x-1.5 md:hover:gap-x-3 transition-all">Detaylı
+                {/*<a href="{{ route('venture-building') }title="Detaylı bilgi" className="md:text-xl lg:text-1xl flex items-center gap-x-1.5 md:hover:gap-x-3 transition-all">Detaylı
                 bilgi
-                <x-svgs.arrow-right className="h-8" />
-                </a> --}}
+                <SVGarrow-right className="h-8" />
+                </a> */}
             </div>
             <div className="grid md:grid-cols-2 gap-y-7.5 md:gap-y-10 lg:gap-y-15 md:gap-x-5 lg:gap-x-7.5">
                 <div className="flex flex-col">
@@ -58,7 +58,7 @@
                         </div>
                         <a href="https://www.omnicourse.io" title="omnicourse.io" target="_blank" className="font-bold flex items-center gap-x-1.5">
                             omnicourse.io
-                            <x-svgs.link className="h-6" />
+                            <SVGlink className="h-6" />
                         </a>
                     </div>
                 </div>
@@ -69,16 +69,16 @@
         <ContainerAtom className="space-y-7.5 md:space-y-10 lg:space-y-15">
             <div className="flex flex-col gap-y-3.5 md:gap-y-0 md:flex-row md:gap-x-7.5 md:items-center">
                 <TitleH2Atom title="Service for Equity" />
-                {{-- <a href="{{ route('service-for-equity') }}" title="Detaylı
+                {/*<a href="{{ route('service-for-equity') }title="Detaylı
                 bilgi" className="md:text-xl lg:text-1xl flex items-center gap-x-1.5 md:hover:gap-x-3 transition-all">Detaylı
                 bilgi
-                <x-svgs.arrow-right className="h-8" />
-                </a> --}}
+                <SVGarrow-right className="h-8" />
+                </a> */}
             </div>
             <div className="grid md:grid-cols-2 gap-y-7.5 md:gap-y-10 lg:gap-y-15 md:gap-x-5 lg:gap-x-7.5">
                 <div className="flex flex-col">
                     <figure className="bg-white flex items-center justify-center py-12 md:px-13 lg:py-15 lg:px-16 rounded-t-lg">
-                        <x-svgs.upcalled className="h-12 lg:h-18" />
+                        <SVGupcalled className="h-12 lg:h-18" />
                     </figure>
                     <div className="grow bg-bubble-gum p-5 md:p-7.5 space-y-3.5 md:space-y-5 rounded-b-lg">
                         <div className="flex items-end justify-between">
@@ -104,7 +104,7 @@
                         </div>
                         <a href="https://www.upcalled.com" title="upcalled.com" target="_blank" className="font-bold flex items-center gap-x-1.5">
                             upcalled.com
-                            <x-svgs.link className="h-6" />
+                            <SVGlink className="h-6" />
                         </a>
                     </div>
                 </div>
@@ -136,7 +136,7 @@
                         </div>
                         <a href="https://www.notionecommerce.com/" title="notionecommerce.com" target="_blank" className="font-bold flex items-center gap-x-1.5">
                             notionecommerce.com
-                            <x-svgs.link className="h-6" />
+                            <SVGlink className="h-6" />
                         </a>
                     </div>
                 </div>
@@ -168,7 +168,7 @@
                         </div>
                         <a href="https://www.uxnotion.com/" title="uxnotion.com" target="_blank" className="font-bold flex items-center gap-x-1.5">
                             uxnotion.com
-                            <x-svgs.link className="h-6" />
+                            <SVGlink className="h-6" />
                         </a>
                     </div>
                 </div>
@@ -200,7 +200,7 @@
                         </div>
                         <a href="https://podcastcover.info/" title="podcastcover.info" target="_blank" className="font-bold flex items-center gap-x-1.5">
                             podcastcover.info
-                            <x-svgs.link className="h-6" />
+                            <SVGlink className="h-6" />
                         </a>
                     </div>
                 </div>
@@ -232,13 +232,13 @@
                         </div>
                         <a href="https://productrecipes.com/" title="productrecipes.com" target="_blank" className="font-bold flex items-center gap-x-1.5">
                             productrecipes.com
-                            <x-svgs.link className="h-6" />
+                            <SVGlink className="h-6" />
                         </a>
                     </div>
                 </div>
                 <div className="flex flex-col">
                     <figure className="bg-white flex items-center justify-center py-12 md:px-13 lg:py-15 lg:px-16 rounded-t-lg">
-                        <x-svgs.branding-kit className="h-8 lg:h-18" />
+                        <SVGBrandingKit className="h-8 lg:h-18" />
                     </figure>
                     <div className="grow bg-bubble-gum p-5 md:p-7.5 space-y-3.5 md:space-y-5 rounded-b-lg">
                         <div className="flex items-end justify-between">
@@ -264,7 +264,7 @@
                         </div>
                         <a href="https://notionbrandingkit.com/" title="notionbrandingkit.com" target="_blank" className="font-bold flex items-center gap-x-1.5">
                             notionbrandingkit.com
-                            <x-svgs.link className="h-6" />
+                            <SVGlink className="h-6" />
                         </a>
                     </div>
                 </div>
@@ -296,13 +296,13 @@
                         </div>
                         <a href="https://currencyicons.com/" title="currencyicons.com" target="_blank" className="font-bold flex items-center gap-x-1.5">
                             currencyicons.com
-                            <x-svgs.link className="h-6" />
+                            <SVGlink className="h-6" />
                         </a>
                     </div>
                 </div>
                 <div className="flex flex-col">
                     <figure className="bg-white flex items-center justify-center py-12 md:px-13 lg:py-15 lg:px-16 rounded-t-lg">
-                        <x-svgs.karma className="h-8 lg:h-18" />
+                        <SVGkarma className="h-8 lg:h-18" />
                     </figure>
                     <div className="grow bg-bubble-gum p-5 md:p-7.5 space-y-3.5 md:space-y-5 rounded-b-lg">
                         <div className="flex items-end justify-between">
@@ -328,13 +328,13 @@
                         </div>
                         <a href="https://karma.design/" title="karma.design" target="_blank" className="font-bold flex items-center gap-x-1.5">
                             karma.design
-                            <x-svgs.link className="h-6" />
+                            <SVGlink className="h-6" />
                         </a>
                     </div>
                 </div>
                 <div className="flex flex-col">
                     <figure className="bg-white flex items-center justify-center py-12 md:px-13 lg:py-15 lg:px-16 rounded-t-lg">
-                        <x-svgs.ambient className="h-8 lg:h-18" />
+                        <SVGAmbient className="h-8 lg:h-18" />
                     </figure>
                     <div className="grow bg-bubble-gum p-5 md:p-7.5 space-y-3.5 md:space-y-5 rounded-b-lg">
                         <div className="flex items-end justify-between">
@@ -360,7 +360,7 @@
                         </div>
                         <a href="https://ambient.design/" title="ambient.design" target="_blank" className="font-bold flex items-center gap-x-1.5">
                             ambient.design
-                            <x-svgs.link className="h-6" />
+                            <SVGlink className="h-6" />
                         </a>
                     </div>
                 </div>
@@ -392,7 +392,7 @@
                         </div>
                         <a href="https://airtabletools.com/" title="airtabletools.com" target="_blank" className="font-bold flex items-center gap-x-1.5">
                             airtabletools.com
-                            <x-svgs.link className="h-6" />
+                            <SVGlink className="h-6" />
                         </a>
                     </div>
                 </div>
@@ -623,15 +623,15 @@
         <ContainerAtom className="space-y-7.5 md:space-y-10 lg:space-y-15">
             <div className="flex flex-col gap-y-3.5 md:gap-y-0 md:flex-row md:gap-x-7.5 md:items-center">
                 <TitleH2Atom title="Topluluk" />
-                {{-- <a href="#" title="Detaylı bilgi" className="md:text-xl lg:text-1xl flex items-center gap-x-1.5 md:hover:gap-x-3 transition-all">Detaylı
+                {/*<a href="#" title="Detaylı bilgi" className="md:text-xl lg:text-1xl flex items-center gap-x-1.5 md:hover:gap-x-3 transition-all">Detaylı
                     bilgi
-                    <x-svgs.arrow-right className="h-8" />
-                </a> --}}
+                    <SVGarrow-right className="h-8" />
+                </a> */}
             </div>
             <div className="grid md:grid-cols-2 gap-y-7.5 md:gap-y-10 lg:gap-y-15 md:gap-x-5 lg:gap-x-7.5">
                 <div>
                     <figure className="bg-white flex items-center justify-center py-12 md:px-13 lg:py-15 lg:px-16 rounded-t-lg">
-                        <x-svgs.tmlab className="h-12 lg:h-18" />
+                        <SVGtmlab className="h-12 lg:h-18" />
                     </figure>
                     <div className="grow bg-bubble-gum p-5 md:p-7.5 space-y-3.5 md:space-y-5 rounded-b-lg">
                         <div className="flex items-end justify-between">
@@ -642,7 +642,7 @@
                         </p>
                         <a href="https://www.tmlab.studio" title="tmlab.studio" target="_blank" className="font-bold flex items-center gap-x-1.5">
                             tmlab.studio
-                            <x-svgs.link className="h-6" />
+                            <SVGlink className="h-6" />
                         </a>
                     </div>
                 </div>
@@ -659,11 +659,11 @@
         <ContainerAtom>
             <CheckedItemMolecule title="Siz sadece üretin" desc="Join our community of over 1,000 Founders, Advisors, and Experts to take your startup to the next level." imgSrc="img/build-illustration.svg">
                 <div className="space-y-4">
-                    <x-atoms.check-item desc="Work 1-on-1 with an Expert Komünite Advisor" />
-                    <x-atoms.check-item desc="Weekly check-ins and milestone development sessions" />
-                    <x-atoms.check-item desc="Access to daily workshops and office hours with Experts" />
-                    <x-atoms.check-item desc="On-demand help with everyday tasks from experts" />
-                    <x-atoms.check-item desc="Membership in a local network of creators" />
+                    <CheckItemAtom desc="Work 1-on-1 with an Expert Komünite Advisor" />
+                    <CheckItemAtom desc="Weekly check-ins and milestone development sessions" />
+                    <CheckItemAtom desc="Access to daily workshops and office hours with Experts" />
+                    <CheckItemAtom desc="On-demand help with everyday tasks from experts" />
+                    <CheckItemAtom desc="Membership in a local network of creators" />
                 </div>
             </CheckedItemMolecule>
         </ContainerAtom>
@@ -674,7 +674,7 @@
                 <div className="bg-ghost space-y-5 lg:space-y-7.5 p-5 sm:p-7.5 lg:p-10 rounded-lg">
                     <figure>
                         <a href="/" title="Komünite">
-                            <x-svgs.logo className="h-8 lg:h-10 xl:h-11.5" />
+                            <SVGlogo className="h-8 lg:h-10 xl:h-11.5" />
                         </a>
                     </figure>
                     <TitleH2Atom title="Bir defa yap,
@@ -714,7 +714,7 @@
                             sahip olursunuz.
                         </p>
                     </div>
-                    <x-atoms.button href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
+                    <ButtonAtom href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
                     <div className="space-y-3.5 lg:space-y-5">
                         <p className="font-bold text-xxl md:text-2xl lg:text-2.25xl md:leading-snug">
                             Üyelik ücreti yıllık 1000 TL olarak belirlenmiştir.

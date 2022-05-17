@@ -3,7 +3,7 @@
         <ContainerAtom>
             <div className="flex flex-col items-center gap-y-7.5 lg:gap-y-10 px-5 md:px-15 lg:px-25">
                 <figure>
-                    <x-svgs.komunite-square className="h-42.5 w-42.5" />
+                    <SVGkomunite-square className="h-42.5 w-42.5" />
                 </figure>
                 <TitleH1Atom title="Growth Product Manager" className="text-center" />
 
@@ -14,7 +14,7 @@
                 </div>
                 <div className="flex items-center gap-x-2.5 text-neptune">
                     <figure>
-                        <x-svgs.location className="h-7" />
+                        <SVGlocation className="h-7" />
                     </figure>
                     <span className="font-bold text-lg md:text-1xl">Türkiye, USA</span>
                 </div>
@@ -90,24 +90,24 @@
                 <x-molecules.career-card company="Komünite" location="Türkiye, USA" title="Social Media Manager
                 ">
                     <figure>
-                        <x-svgs.komunite-square className="h-16 w-16 rounded" />
+                        <SVGkomunite-square className="h-16 w-16 rounded" />
                     </figure>
                     <x-slot name="slotDesc">
                         <p>
                             Komünite’nin dışa açılan tüm iletişimini yönetecek, sosyal medya stratejisini geliştirecek ve sosyal medya iletişimini yönetecek, operasyonel bir sosyal medya yöneticisi arıyoruz.
                         </p>
-                        <x-atoms.button href="{{route('komunite-social-media-manager')}}" title="Başvurun" className="font-bold md:text-xl lg:text-1xl py-3 px-6 md:py-3.5 md:px-7" />
+                        <ButtonAtom href="{{route('komunite-social-media-manager')}title="Başvurun" className="font-bold md:text-xl lg:text-1xl py-3 px-6 md:py-3.5 md:px-7" />
                     </x-slot>
                 </x-molecules.career-card>
                 <x-molecules.career-card company="The Bülten" location="Türkiye, USA" title="Editor-at-Large">
                     <figure>
-                        <x-svgs.the-bulten-mini className="h-16 w-16 rounded" />
+                        <SVGthe-bulten-mini className="h-16 w-16 rounded" />
                     </figure>
                     <x-slot name="slotDesc">
                         <p>
                             The Bülten isimli, kuruluş aşamasında olan içerik platformunun liderliğini yapacak ve editoryal dilini belirleyecek olan deneyimli bir editör arıyoruz.
                         </p>
-                        <x-atoms.button href="{{route('the-bulten-editor-at-large')}}" title="Başvurun" className="font-bold md:text-xl lg:text-1xl py-3 px-6 md:py-3.5 md:px-7" />
+                        <ButtonAtom href="{{route('the-bulten-editor-at-large')}title="Başvurun" className="font-bold md:text-xl lg:text-1xl py-3 px-6 md:py-3.5 md:px-7" />
                     </x-slot>
                 </x-molecules.career-card>
             </div>

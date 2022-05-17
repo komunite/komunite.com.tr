@@ -16,19 +16,19 @@
                     <div className="flex flex-wrap gap-5 md:gap-7.5">
                         <div className="flex items-center gap-x-3">
                             <figure>
-                                <x-svgs.location className="h-7 md:h-9" />
+                                <SVGlocation className="h-7 md:h-9" />
                             </figure>
-                            <x-atoms.lead-regular content="İzmir Originn" />
+                            <LeadRegularAtom content="İzmir Originn" />
                         </div>
                         <div className="flex items-center gap-x-3">
                             <figure>
-                                <x-svgs.calendar className="h-7 md:h-9" />
+                                <SVGcalendar className="h-7 md:h-9" />
                             </figure>
                             <time className="text-lg md:text-xxl xl:text-2.25xl xl:leading-snug">20 Mayıs 2022 Cuma</time>
                         </div>
                         <div className="flex items-center gap-x-3">
                             <figure>
-                                <x-svgs.clock className="h-7 md:h-9" />
+                                <SVGclock className="h-7 md:h-9" />
                             </figure>
                             <time className="text-lg md:text-xxl xl:text-2.25xl xl:leading-snug">16.00</time>
                         </div>
@@ -37,7 +37,7 @@
                         <div className="text-lg md:text-1xl">
                             Etkinliğe kayıt olun ― Eventbrite
                         </div>
-                        <x-atoms.button href="https://www.eventbrite.com/e/creators-networking-izmir-tickets-331826511027" target="_blank" title="Kayıt Olun" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
+                        <ButtonAtom href="https://www.eventbrite.com/e/creators-networking-izmir-tickets-331826511027" target="_blank" title="Kayıt Olun" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
                     </div>
                     <div className="space-y-5 md:space-y-7.5">
                         <div className="font-bold text-lg md:text-xxl xl:text-2.25xl xl:leading-snug">
@@ -80,7 +80,7 @@
                             <div className="text-lg md:text-1xl">
                                 Etkinliğe kayıt olun ― Eventbrite
                             </div>
-                            <x-atoms.button href="https://www.eventbrite.com/e/creators-networking-izmir-tickets-331826511027" target="_blank" title="Kayıt Olun" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
+                            <ButtonAtom href="https://www.eventbrite.com/e/creators-networking-izmir-tickets-331826511027" target="_blank" title="Kayıt Olun" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
                         </div>
                     </div>
                 </div>
@@ -110,7 +110,7 @@
         <ContainerAtom className="space-y-5 md:space-y-7.5">
             <TitleH2Atom title="Gelecek etkinlikler" />
             <div className="space-y-3.5 md:space-y-5">
-                <x-atoms.lead-regular content="Creators Networking İzmir - Originn İzmir" />
+                <LeadRegularAtom content="Creators Networking İzmir - Originn İzmir" />
                 <p className="text-lg md:text-1xl">
                     Etkinliklerden haberdar olmak için <a href="https://www.eventbrite.com/o/komunite-39674358983" target="_blank" title="EventBrite" className="underline">EventBrite</a> hesabımızı takip et!
                 </p>
@@ -121,8 +121,8 @@
         <ContainerAtom className="space-y-5 md:space-y-7.5">
             <TitleH2Atom title="Geçmiş etkinlikler" />
             <div className="space-y-3.5 md:space-y-5">
-                <x-atoms.lead-regular content="13 Nisan 2022 ― Creators Networking Ankara ― Ankara Tekmer" />
-                <x-atoms.lead-regular content="1 Şubat 2022 ― Creators Networking İstanbul ― Kolektif House Levent" />
+                <LeadRegularAtom content="13 Nisan 2022 ― Creators Networking Ankara ― Ankara Tekmer" />
+                <LeadRegularAtom content="1 Şubat 2022 ― Creators Networking İstanbul ― Kolektif House Levent" />
             </div>
         </ContainerAtom>
     </section>
@@ -130,12 +130,12 @@
         <ContainerAtom className="space-y-5 md:space-y-7.5">
             <TitleH3Atom title="Komünite’ye siz de katılın" />
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-y-5 sm:gap-x-2 md:gap-5 lg:gap-7.5">
-                <x-atoms.check-item desc="Katma değerli çalışmaya başlayın" />
-                <x-atoms.check-item desc="Anlamlı bağlar kurun" />
-                <x-atoms.check-item desc="Uzmanlardan öğrenin" />
-                <x-atoms.check-item desc="Etkinliklere katılın" />
-                <x-atoms.check-item desc="Üretmeye başlayın" />
-                <x-atoms.check-item desc="Fikirlerinizi hayata geçirin" />
+                <CheckItemAtom desc="Katma değerli çalışmaya başlayın" />
+                <CheckItemAtom desc="Anlamlı bağlar kurun" />
+                <CheckItemAtom desc="Uzmanlardan öğrenin" />
+                <CheckItemAtom desc="Etkinliklere katılın" />
+                <CheckItemAtom desc="Üretmeye başlayın" />
+                <CheckItemAtom desc="Fikirlerinizi hayata geçirin" />
             </div>
         </ContainerAtom>
     </section>
@@ -145,7 +145,7 @@
                 <div className="bg-ghost space-y-5 lg:space-y-7.5 p-5 sm:p-7.5 lg:p-10 rounded-lg">
                     <figure>
                         <a href="/" title="Komünite">
-                            <x-svgs.logo className="h-8 lg:h-10 xl:h-11.5" />
+                            <SVGlogo className="h-8 lg:h-10 xl:h-11.5" />
                         </a>
                     </figure>
                     <TitleH2Atom title="Bir defa yap,
@@ -185,7 +185,7 @@
                             sahip olursunuz.
                         </p>
                     </div>
-                    <x-atoms.button href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
+                    <ButtonAtom href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
                     <div className="space-y-3.5 lg:space-y-5">
                         <p className="font-bold text-xxl md:text-2xl lg:text-2.25xl md:leading-snug">
                             Üyelik ücreti yıllık 1000 TL olarak belirlenmiştir.

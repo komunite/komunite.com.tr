@@ -12,7 +12,7 @@
         <ContainerAtom className="grid md:grid-cols-3 gap-y-5 md:gap-x-5 lg:gap-x-7.5">
             <div className="flex flex-col gap-3.5 md:gap-5 lg:flex-row lg:gap-y-0 lg:gap-x-7.5">
                 <figure>
-                    <x-svgs.camera className="h-10 lg:h-12 text-black" />
+                    <SVGcamera className="h-10 lg:h-12 text-black" />
                 </figure>
                 <div className="space-y-2 md:space-y-2.5">
                     <BodyBoldAtom content="Supportive community" />
@@ -21,7 +21,7 @@
             </div>
             <div className="flex flex-col gap-3.5 md:gap-5 lg:flex-row lg:gap-y-0 lg:gap-x-7.5">
                 <figure>
-                    <x-svgs.camera className="h-10 lg:h-12 text-black" />
+                    <SVGcamera className="h-10 lg:h-12 text-black" />
                 </figure>
                 <div className="space-y-2 md:space-y-2.5">
                     <BodyBoldAtom content="Opportunity and access" />
@@ -30,7 +30,7 @@
             </div>
             <div className="flex flex-col gap-3.5 md:gap-5 lg:flex-row lg:gap-y-0 lg:gap-x-7.5">
                 <figure>
-                    <x-svgs.camera className="h-10 lg:h-12 text-black" />
+                    <SVGcamera className="h-10 lg:h-12 text-black" />
                 </figure>
                 <div className="space-y-2 md:space-y-2.5">
                     <BodyBoldAtom content="Sterling credential" />
@@ -119,7 +119,7 @@
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-y-3.5 sm:gap-y-5 sm:gap-x-7.5">
                 <a href="https://www.omnicourse.io" title="Omnicourse" target="_blank">
                     <figure className="flex flex-col items-center gap-y-2.5 py-4 sm:py-6">
-                        <x-svgs.omnicourse className="h-8 sm:h-10" />
+                        <SVGomnicourse className="h-8 sm:h-10" />
                         <figcaption>
                             Mobil Sesli Öğrenim Platformu
                         </figcaption>
@@ -127,7 +127,7 @@
                 </a>
                 <a href="https://www.karma.design" title="Karma" target="_blank">
                     <figure className="flex flex-col items-center gap-y-2.5 py-4 sm:py-6">
-                        <x-svgs.karma className="h-8 sm:h-11" />
+                        <SVGkarma className="h-8 sm:h-11" />
                         <figcaption>
                             Web Wireframe UI Kit
                         </figcaption>
@@ -135,7 +135,7 @@
                 </a>
                 <a href="https://www.ambient.design" title="Ambient" target="_blank">
                     <figure className="flex flex-col items-center gap-y-2.5 py-4 sm:py-6">
-                        <x-svgs.ambient className="h-8 sm:h-11" />
+                        <SVGAmbient className="h-8 sm:h-11" />
                         <figcaption>
                             Mobil UI Kit Pazaryeri
                         </figcaption>
@@ -143,7 +143,7 @@
                 </a>
                 <a href="https://www.upcalled.com" title="Upcalled" target="_blank">
                     <figure className="flex flex-col items-center gap-y-2.5 py-4 sm:py-6">
-                        <x-svgs.upcalled className="h-8 sm:h-11" />
+                        <SVGupcalled className="h-8 sm:h-11" />
                         <figcaption>
                             Video Customer Success
                         </figcaption>
@@ -151,7 +151,7 @@
                 </a>
                 <a href="https://www.ambient.design" title="Ambient" target="_blank">
                     <figure className="flex flex-col items-center gap-y-2.5 py-4 sm:py-6">
-                        <x-svgs.ambient className="h-8 sm:h-11" />
+                        <SVGAmbient className="h-8 sm:h-11" />
                         <figcaption>
                             Mobil UI Kit Pazaryeri
                         </figcaption>
@@ -159,7 +159,7 @@
                 </a>
                 <a href="https://www.upcalled.com" title="Upcalled" target="_blank">
                     <figure className="flex flex-col items-center gap-y-2.5 py-4 sm:py-6">
-                        <x-svgs.upcalled className="h-8 sm:h-11" />
+                        <SVGupcalled className="h-8 sm:h-11" />
                         <figcaption>
                             Video Customer Success
                         </figcaption>
@@ -167,7 +167,7 @@
                 </a>
                 <a href="https://www.omnicourse.io" title="Omnicourse" target="_blank">
                     <figure className="flex flex-col items-center gap-y-2.5 py-4 sm:py-6">
-                        <x-svgs.omnicourse className="h-8 sm:h-10" />
+                        <SVGomnicourse className="h-8 sm:h-10" />
                         <figcaption>
                             Mobil Sesli Öğrenim Platformu
                         </figcaption>
@@ -175,14 +175,14 @@
                 </a>
                 <a href="https://www.karma.design" title="Karma" target="_blank">
                     <figure className="flex flex-col items-center gap-y-2.5 py-4 sm:py-6">
-                        <x-svgs.karma className="h-8 sm:h-11" />
+                        <SVGkarma className="h-8 sm:h-11" />
                         <figcaption>
                             Web Wireframe UI Kit
                         </figcaption>
                     </figure>
                 </a>
             </div>
-            <x-atoms.button href="#" title="Portfolyomuz" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10 self-center" />
+            <ButtonAtom href="#" title="Portfolyomuz" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10 self-center" />
         </ContainerAtom>
     </section>
     <section className="mb-10 md:mb-15 lg:mb-20">
@@ -197,7 +197,7 @@
                         <img loading="lazy" src="img/FatihGuner.png" alt="Fatih Güner" className="object-cover rounded-lg w-full lg:h-92">
                     </figure>
                     <div className="space-y-2.5">
-                        <x-atoms.lead-regular content="Fatih Güner" className="font-bold" />
+                        <LeadRegularAtom content="Fatih Güner" className="font-bold" />
                         <BodyNoteAtom content="Founder & CEO at Notion Power-Up" />
                         <BodyNoteAtom content="Başkalarının hayallerini gerçekleştirmek yerine artık kendi hayallerinin peşinde koşup, kendi değerinin farkına varmak, yapabileceklerini görmek ve senin gibi düşünen insanlarla üretmek için motivasyon dolu bir ortam." />
                     </div>
@@ -207,7 +207,7 @@
                         <img loading="lazy" src="img/FatihGuner.png" alt="Fatih Güner" className="object-cover rounded-lg w-full lg:h-92">
                     </figure>
                     <div className="space-y-2.5">
-                        <x-atoms.lead-regular content="Kadir Furkan" className="font-bold" />
+                        <LeadRegularAtom content="Kadir Furkan" className="font-bold" />
                         <BodyNoteAtom content="Founder & CEO at Notion Power-Up" />
                         <BodyNoteAtom content="Başkalarının hayallerini gerçekleştirmek yerine artık kendi hayallerinin peşinde koşup, kendi değerinin farkına varmak, yapabileceklerini görmek ve senin gibi düşünen insanlarla üretmek için motivasyon dolu bir ortam." />
                     </div>
@@ -217,13 +217,13 @@
                         <img loading="lazy" src="img/FatihGuner.png" alt="Fatih Güner" className="object-cover rounded-lg w-full lg:h-92">
                     </figure>
                     <div className="space-y-2.5">
-                        <x-atoms.lead-regular content="Eren Dik" className="font-bold" />
+                        <LeadRegularAtom content="Eren Dik" className="font-bold" />
                         <BodyNoteAtom content="Founder & CEO at Notion Power-Up" />
                         <BodyNoteAtom content="Başkalarının hayallerini gerçekleştirmek yerine artık kendi hayallerinin peşinde koşup, kendi değerinin farkına varmak, yapabileceklerini görmek ve senin gibi düşünen insanlarla üretmek için motivasyon dolu bir ortam." />
                     </div>
                 </div>
             </div>
-            <x-atoms.button href="#" title="Blog" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10 self-center" />
+            <ButtonAtom href="#" title="Blog" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10 self-center" />
         </ContainerAtom>
     </section>
     <section className="mb-10 md:mb-15 lg:mb-20">

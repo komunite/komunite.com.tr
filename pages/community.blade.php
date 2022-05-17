@@ -4,7 +4,7 @@
             <div className="space-y-7.5 lg:space-y-10">
                 <TitleH1Atom title="Muhteşem bir yere denk geldiniz." className="w-4/5" />
                 <TitleH4Atom title="Meraklı insanlar topluluğuna katılın ve ürün geliştirme serüvenine hemen başlayın." />
-                <x-atoms.button href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
+                <ButtonAtom href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
                 <div className="flex flex-col gap-y-5 sm:gap-y-0 sm:flex-row sm:gap-x-5">
                     <div className="flex items-center -space-x-3">
                         <figure>
@@ -23,19 +23,19 @@
                     <div className="space-y-2.5">
                         <div className="flex items-center gap-x-1">
                             <figure>
-                                <x-svgs.star className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
+                                <SVGstar className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
                             </figure>
                             <figure>
-                                <x-svgs.star className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
+                                <SVGstar className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
                             </figure>
                             <figure>
-                                <x-svgs.star className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
+                                <SVGstar className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
                             </figure>
                             <figure>
-                                <x-svgs.star className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
+                                <SVGstar className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
                             </figure>
                             <figure>
-                                <x-svgs.star className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
+                                <SVGstar className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
                             </figure>
                         </div>
                         <div className="font-bold">
@@ -48,7 +48,7 @@
                 <img loading="lazy" src="img/community-image.png" alt="Community Image" className="w-full">
 
                 <button type="button" className="js-videoPopupBtn" data-url="https://www.youtube.com/embed/GuGdTm4RXX8?autoplay=1">
-                    <x-svgs.play className="w-16 md:w-24 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  -mt-8 lg:-mt-24 xl:-mt-12">
+                    <SVGplay className="w-16 md:w-24 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  -mt-8 lg:-mt-24 xl:-mt-12">
                     </x-svgs.play>
                 </button>
             </div>
@@ -57,19 +57,19 @@
     <section className="mb-10 md:mb-15 lg:mb-20">
         <ContainerAtom>
             <div className="bg-neptune flex items-center justify-center gap-y-5 gap-x-15 flex-wrap px-7.5 py-5 md:py-7.5 rounded-lg">
-                <a href="{{ route('masterclass') }}" title="Masterclass" className="font-bold text-lg md:text-1xl uppercase text-white flex items-center gap-x-2">Masterclass
-                    <x-svgs.arrow-right className="w-9 h-9" />
+                <a href="{{ route('masterclass') }title="Masterclass" className="font-bold text-lg md:text-1xl uppercase text-white flex items-center gap-x-2">Masterclass
+                    <SVGarrow-right className="w-9 h-9" />
                 </a>
                 <a href="#" title="Eğitimler" className="font-bold text-lg md:text-1xl uppercase text-white flex items-center gap-x-2">Eğitimler
-                    <x-svgs.arrow-right className="w-9 h-9" />
+                    <SVGarrow-right className="w-9 h-9" />
                 </a>
-                <a href="{{ route('broadcasts') }}" title="Canlı Yayınlar" className="font-bold text-lg md:text-1xl uppercase text-white flex items-center gap-x-2">Canlı Yayınlar
-                    <x-svgs.arrow-right className="w-9 h-9" />
+                <a href="{{ route('broadcasts') }title="Canlı Yayınlar" className="font-bold text-lg md:text-1xl uppercase text-white flex items-center gap-x-2">Canlı Yayınlar
+                    <SVGarrow-right className="w-9 h-9" />
                 </a>
-                {{-- <a href="#" title="Burs Programı"
+                {/*<a href="#" title="Burs Programı"
                     className="font-bold text-lg md:text-1xl uppercase text-white flex items-center gap-x-2">Burs Programı
-                    <x-svgs.arrow-right className="w-9 h-9" />
-                </a> --}}
+                    <SVGarrow-right className="w-9 h-9" />
+                </a> */}
             </div>
         </ContainerAtom>
     </section>
@@ -87,7 +87,7 @@
                 <div className="grid md:grid-cols-2 gap-x-5 md:gap-x-7.5 gap-y-7.5 md:gap-y-10">
                     <div className="flex flex-col items-center text-center gap-y-2.5">
                         <figure className="justify-self-center lg:justify-self-start">
-                            <x-svgs.community-1 className="w-16 h-16" />
+                            <SVGcommunity-1 className="w-16 h-16" />
                         </figure>
                         <div className="font-bold text-lg md:text-xxl xl:text-2.25xl xl:leading-snug">
                             Take ownership
@@ -98,7 +98,7 @@
                     </div>
                     <div className="flex flex-col items-center text-center gap-y-2.5">
                         <figure className="justify-self-center lg:justify-self-start">
-                            <x-svgs.community-2 className="w-16 h-16" />
+                            <SVGcommunity-2 className="w-16 h-16" />
                         </figure>
                         <div className="font-bold text-lg md:text-xxl xl:text-2.25xl xl:leading-snug">
                             Make more money
@@ -109,7 +109,7 @@
                     </div>
                     <div className="flex flex-col items-center text-center gap-y-2.5">
                         <figure className="justify-self-center lg:justify-self-start">
-                            <x-svgs.expecting-4 className="w-16 h-16" />
+                            <SVGExpecting4 className="w-16 h-16" />
                         </figure>
                         <div className="font-bold text-lg md:text-xxl xl:text-2.25xl xl:leading-snug">
                             Future-proof your career
@@ -120,7 +120,7 @@
                     </div>
                     <div className="flex flex-col items-center text-center gap-y-2.5">
                         <figure className="justify-self-center lg:justify-self-start">
-                            <x-svgs.community-3 className="w-16 h-16" />
+                            <SVGcommunity-3 className="w-16 h-16" />
                         </figure>
                         <div className="font-bold text-lg md:text-xxl xl:text-2.25xl xl:leading-snug">
                             Get expertly matched
@@ -142,7 +142,7 @@
                     </figure>
                     <div className="flex gap-x-2.5 md:gap-x-5">
                         <figure className="justify-self-center lg:justify-self-start">
-                            <x-svgs.lamb className="w-8 md:w-12 h-8 md:h-12" />
+                            <SVGlamb className="w-8 md:w-12 h-8 md:h-12" />
                         </figure>
                         <div className="space-y-2 md:space-y-3">
                             <TitleH4Atom title="Tasarımcılar" />
@@ -159,7 +159,7 @@
                     </figure>
                     <div className="flex gap-x-2.5 md:gap-x-5">
                         <figure className="justify-self-center lg:justify-self-start">
-                            <x-svgs.lamb className="w-8 md:w-12 h-8 md:h-12" />
+                            <SVGlamb className="w-8 md:w-12 h-8 md:h-12" />
                         </figure>
                         <div className="space-y-2 md:space-y-3">
                             <TitleH4Atom title="Geliştiriciler" />
@@ -176,7 +176,7 @@
                     </figure>
                     <div className="flex gap-x-2.5 md:gap-x-5">
                         <figure className="justify-self-center lg:justify-self-start">
-                            <x-svgs.lamb className="w-8 md:w-12 h-8 md:h-12" />
+                            <SVGlamb className="w-8 md:w-12 h-8 md:h-12" />
                         </figure>
                         <div className="space-y-2 md:space-y-3">
                             <TitleH4Atom title="Küratörler" />
@@ -193,7 +193,7 @@
                     </figure>
                     <div className="flex gap-x-2.5 md:gap-x-5">
                         <figure className="justify-self-center lg:justify-self-start">
-                            <x-svgs.lamb className="w-8 md:w-12 h-8 md:h-12" />
+                            <SVGlamb className="w-8 md:w-12 h-8 md:h-12" />
                         </figure>
                         <div className="space-y-2 md:space-y-3">
                             <TitleH4Atom title="Girişimciler" />
@@ -211,13 +211,13 @@
         <ContainerAtom>
             <CheckedItemMolecule title="Uzmanlardan öğrenin" desc="Join our community of over 1,000 Founders, Advisors, and Experts to take your startup to the next level." imgSrc="img/community-illustration-2.svg">
                 <div className="space-y-4">
-                    <x-atoms.check-item desc="Work 1-on-1 with an Expert Komünite Advisor" />
-                    <x-atoms.check-item desc="Weekly check-ins and milestone development sessions" />
-                    <x-atoms.check-item desc="Access to daily workshops and office hours with Experts" />
-                    <x-atoms.check-item desc="On-demand help with everyday tasks from experts" />
-                    <x-atoms.check-item desc="Membership in a local network of creators" />
+                    <CheckItemAtom desc="Work 1-on-1 with an Expert Komünite Advisor" />
+                    <CheckItemAtom desc="Weekly check-ins and milestone development sessions" />
+                    <CheckItemAtom desc="Access to daily workshops and office hours with Experts" />
+                    <CheckItemAtom desc="On-demand help with everyday tasks from experts" />
+                    <CheckItemAtom desc="Membership in a local network of creators" />
                 </div>
-                <x-atoms.button href="{{ route('career') }}" title="Kariyer Fırsatları" className="font-bold text-xl md:text-1xl xl:text-2xl py-3 px-6 lg:py-3.5 lg:px-7.5 mt-5 md:mt-7.5" />
+                <ButtonAtom href="{{ route('career') }title="Kariyer Fırsatları" className="font-bold text-xl md:text-1xl xl:text-2xl py-3 px-6 lg:py-3.5 lg:px-7.5 mt-5 md:mt-7.5" />
             </CheckedItemMolecule>
         </ContainerAtom>
     </section>
@@ -230,7 +230,7 @@
                 <BigNumbersItemMolecule number="60" title="Toplam alt uzmanlıklar" content="Bağımsız yaratıcılar ve mikro girişimciler tarafından yaratılan ve fonlama fırsatı bulduğumuz dijital ürünlerin sayısı" />
             </div>
             <BodyBoldAtom content="Join our community of over 1,000 Founders, Advisors, and Experts to take your startup to the next level." className="text-center sm:w-2/3 lg:w-1/2 sm:mx-auto" />
-            <x-atoms.button href="#" title="Eğitimler" className="font-bold text-xl md:text-1xl xl:text-2xl py-3 px-6 lg:py-3.5 lg:px-7.5 self-center" />
+            <ButtonAtom href="#" title="Eğitimler" className="font-bold text-xl md:text-1xl xl:text-2xl py-3 px-6 lg:py-3.5 lg:px-7.5 self-center" />
         </ContainerAtom>
     </section>
     <section className="mb-10 md:mb-15 lg:mb-20">
@@ -241,22 +241,22 @@
                 </figure>
                 <div className="space-y-2.5">
                     <div className="flex flex-col gap-y-3.5 lg:gap-y-0 lg:flex-row lg:items-center gap-x-5">
-                        <x-atoms.lead-regular content="Fatih Güner" className="font-bold" />
+                        <LeadRegularAtom content="Fatih Güner" className="font-bold" />
                         <div className="flex items-center gap-x-1">
                             <figure>
-                                <x-svgs.star className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
+                                <SVGstar className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
                             </figure>
                             <figure>
-                                <x-svgs.star className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
+                                <SVGstar className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
                             </figure>
                             <figure>
-                                <x-svgs.star className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
+                                <SVGstar className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
                             </figure>
                             <figure>
-                                <x-svgs.star className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
+                                <SVGstar className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
                             </figure>
                             <figure>
-                                <x-svgs.star className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
+                                <SVGstar className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
                             </figure>
                         </div>
                     </div>
@@ -270,22 +270,22 @@
                 </figure>
                 <div className="space-y-2.5">
                     <div className="flex flex-col gap-y-3.5 lg:gap-y-0 lg:flex-row lg:items-center gap-x-5">
-                        <x-atoms.lead-regular content="Kadir Furkan" className="font-bold" />
+                        <LeadRegularAtom content="Kadir Furkan" className="font-bold" />
                         <div className="flex items-center gap-x-1">
                             <figure>
-                                <x-svgs.star className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
+                                <SVGstar className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
                             </figure>
                             <figure>
-                                <x-svgs.star className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
+                                <SVGstar className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
                             </figure>
                             <figure>
-                                <x-svgs.star className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
+                                <SVGstar className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
                             </figure>
                             <figure>
-                                <x-svgs.star className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
+                                <SVGstar className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
                             </figure>
                             <figure>
-                                <x-svgs.star className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
+                                <SVGstar className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
                             </figure>
                         </div>
                     </div>
@@ -299,22 +299,22 @@
                 </figure>
                 <div className="space-y-2.5">
                     <div className="flex flex-col gap-y-3.5 lg:gap-y-0 lg:flex-row lg:items-center gap-x-5">
-                        <x-atoms.lead-regular content="Eren Dik" className="font-bold" />
+                        <LeadRegularAtom content="Eren Dik" className="font-bold" />
                         <div className="flex items-center gap-x-1">
                             <figure>
-                                <x-svgs.star className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
+                                <SVGstar className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
                             </figure>
                             <figure>
-                                <x-svgs.star className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
+                                <SVGstar className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
                             </figure>
                             <figure>
-                                <x-svgs.star className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
+                                <SVGstar className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
                             </figure>
                             <figure>
-                                <x-svgs.star className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
+                                <SVGstar className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
                             </figure>
                             <figure>
-                                <x-svgs.star className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
+                                <SVGstar className="text-neptune w-5 h-5 lg:w-6 lg:h-6"></x-svgs.star>
                             </figure>
                         </div>
                     </div>
@@ -337,7 +337,7 @@
                 <div className="bg-ghost space-y-5 lg:space-y-7.5 p-5 sm:p-7.5 lg:p-10 rounded-lg">
                     <figure>
                         <a href="/" title="Komünite">
-                            <x-svgs.logo className="h-8 lg:h-10 xl:h-11.5" />
+                            <SVGlogo className="h-8 lg:h-10 xl:h-11.5" />
                         </a>
                     </figure>
                     <TitleH2Atom title="Bir defa yap,
@@ -377,7 +377,7 @@
                             sahip olursunuz.
                         </p>
                     </div>
-                    <x-atoms.button href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
+                    <ButtonAtom href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
                     <div className="space-y-3.5 lg:space-y-5">
                         <p className="font-bold text-xxl md:text-2xl lg:text-2.25xl md:leading-snug">
                             Üyelik ücreti yıllık 1000 TL olarak belirlenmiştir.
@@ -391,7 +391,7 @@
     <section>
         <ContainerAtom className="space-y-7.5 lg:space-y-10">
             <TitleH3Atom title="Türkiye’nin en yetenekli yaratıcıları bir araya geliyor!" />
-            <x-atoms.lead-regular content="Yeni disiplinler öğrenerek kariyerinizi ileriye götürmek, fikirlerinizi hayata geçirip büyütmek ve yaşam boyu arkadaşlar edinmek istiyorsanız Komünite tam size göre." />
+            <LeadRegularAtom content="Yeni disiplinler öğrenerek kariyerinizi ileriye götürmek, fikirlerinizi hayata geçirip büyütmek ve yaşam boyu arkadaşlar edinmek istiyorsanız Komünite tam size göre." />
             <div className="grid gap-y-7.5 lg:gap-y-0 lg:grid-cols-2 xl:grid-cols-[auto_41.875rem] lg:gap-x-7.5 items-center">
                 <p className="text-lg md:text-1xl">
                     Dünyanın dört bir yanında tasarımcılar, eğitmenler, geliştiriciler, müzisyenler ve birçok meslek

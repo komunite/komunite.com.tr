@@ -54,7 +54,7 @@
                     <img loading="lazy" src="img/omnicourse-2.png" alt="Omnicourse" className="object-cover w-64 lg:w-96">
                 </figure>
             </div>
-            <x-atoms.button href="#" title="Portfolyomuz" className="self-center font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
+            <ButtonAtom href="#" title="Portfolyomuz" className="self-center font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
         </ContainerAtom>
     </section>
     <section className="bg-ghost pt-7.5 md:pt-10 lg:pt-15 pb-10 md:pb-15 lg:pb-20 mb-10 md:mb-15 lg:mb-20">
@@ -256,7 +256,7 @@
     <section>
         <ContainerAtom className="space-y-7.5 lg:space-y-10">
             <TitleH3Atom title="Türkiye’nin en yetenekli yaratıcıları bir araya geliyor!" />
-            <x-atoms.lead-regular content="Yeni disiplinler öğrenerek kariyerinizi ileriye götürmek, fikirlerinizi hayata geçirip büyütmek ve yaşam boyu arkadaşlar edinmek istiyorsanız Komünite tam size göre." />
+            <LeadRegularAtom content="Yeni disiplinler öğrenerek kariyerinizi ileriye götürmek, fikirlerinizi hayata geçirip büyütmek ve yaşam boyu arkadaşlar edinmek istiyorsanız Komünite tam size göre." />
             <div className="grid gap-y-7.5 lg:gap-y-0 lg:grid-cols-2 xl:grid-cols-[auto_41.875rem] lg:gap-x-7.5 items-center">
                 <p className="text-lg md:text-1xl">
                     Dünyanın dört bir yanında tasarımcılar, eğitmenler, geliştiriciler, müzisyenler ve birçok meslek grubundan profesyoneller “ürünleştirme” yöntemleri ile, eforlarını katma değerli bir şekilde satma yolunu seçiyorlar. Zamanını ürünleştirmeyenler ise, aylık maaşları karşılığında zamanlarını satmaya devam ediyor.

@@ -1,169 +1,12 @@
-<x-templates.base title="Anasayfa">
-    <x-slot name="headerBefore">
-        <x-organisms.home-onboarding />
-    </x-slot>
 
-    <x-organisms.hero />
-    <section className="mb-10 md:mb-15 lg:mb-20">
-        <ContainerAtom>
-            <div className="bg-ghost space-y-5 lg:space-y-7.5 py-5 md:py-7.5 lg:py-10 px-7.5 md:px-10 lg:px-15 rounded-lg">
-                <TitleH2Atom title="Komünite nedir?" />
-                <ul className="list-disc text-lg md:text-xxl xl:text-2.25xl xl:leading-tight space-y-2 ml-4 md:ml-7">
-                    <li>
-                        Yaratıcı profesyonelleri ve girişimcileri bir araya getiren ve profesyonel yönetilen <b>online
-                            ve offline bir topluluktur.</b>
-                    </li>
-                    <li>
-                        Girişimcileri fikirden exit’e kadar destekleyen <b>operasyonel bir yatırımcıdır.</b>
-                    </li>
-                    <li>
-                        Melek yatırımcıların ilgilenmeyeceği kadar küçük girişim fikirlerini destekleyen, büyüten ve
-                        fikrin daha <b>büyük yatırımcılara erişmesini sağlayan bir rampadır.</b>
-                    </li>
-                </ul>
-            </div>
-        </ContainerAtom>
-    </section>
-    <section className="mb-7.5 lg:mb-10">
-        <ContainerAtom>
-            <figure className="flex justify-center ">
-                <img loading="lazy" src="img/screenshot.png" alt="Komünite" className="rounded-lg">
-            </figure>
-        </ContainerAtom>
-    </section>
 
-    <section className="mb-10 md:mb-15 lg:mb-20">
-        <ContainerAtom>
-            <div className="bg-neptune text-bright space-y-7.5 lg:space-y-10 py-5 md:py-7.5 lg:py-10 px-7.5 md:px-10 lg:px-15 rounded-lg">
-                <TitleH3Atom title="Meraklı insanlar topluluğuna katılın ve ürün geliştirme serüvenine hemen başlayın." />
-                <x-atoms.lead-regular content="Ürün geliştirme yolculuğuna başlayan yaratıcılar öğrenmeye, büyümeye ve sorular sorup cevaplar almaya ihtiyaç duyar. Topluluk öğreniminin avantajlarından faydalanabileceğiniz Circle grubumuza üye olacaksınız." />
-                <div className="grid gap-y-5 lg:gap-y-0 lg:grid-cols-2 lg:gap-x-7.5">
-                    <div className="space-y-2 lg:space-y-3">
-                        <BodyBoldAtom content="Uzmanlardan Öğrenin:" />
-                        <BodyNoteAtom content="Ürün geliştirme, tasarım, kodlama ve pazarlama gibi konularda uzmanlara ulaşmak her zaman kolay değil. Toplulukta yer alan uzman yaratıcılar, düzenli ve sürekli olarak katılımcıların sorularını cevaplıyor." />
-                    </div>
-                    <div className="space-y-2 lg:space-y-3">
-                        <BodyBoldAtom content="Etkinliklere Katılın:" />
-                        <BodyNoteAtom content="Sizinle benzer yeteneklere sahip olan diğer profesyonellerle, özel temalar etrafında workshoplar, soru-cevap etkinlikleri ve sunumlar, topluluğun sunduğu fırsatlardan biri." />
-                    </div>
-                </div>
-            </div>
-        </ContainerAtom>
-    </section>
-    <section className="mb-10 md:mb-15 lg:mb-20">
-        <ContainerAtom className="grid gap-y-7.5 md:gap-y-0 md:grid-cols-2 md:gap-x-5 lg:gap-x-7.5">
-            <div className="bg-bubble-gum space-y-9 lg:space-y-13 py-5 px-7.5 lg:py-7.5 lg:px-10 rounded-lg">
-                <div className="flex justify-between gap-x-5 lg:gap-x-7.5">
-                    <div className="text-xl lg:text-xxl">
-                        Girişimciler, kendinizden başka kimseye hesap vermeyin
-                    </div>
-                    <figure>
-                        <x-svgs.plane className="h-12 md:h-16" />
-                    </figure>
-                </div>
-                <a href="{{ route('about') }}" title="Platformu Tanıyın" className="text-xxl md:text-2xl lg:text-2.25xl md:leading-snug flex items-center gap-x-3.5 hover:gap-x-5 md:gap-x-5 md:hover:gap-x-7 transition-all">Platformu
-                    Tanıyın
-                    <x-svgs.arrow className="w-12.5" />
-                </a>
-            </div>
-            <div className="bg-bubble-gum space-y-9 lg:space-y-13 py-5 px-7.5 lg:py-7.5 lg:px-10 rounded-lg">
-                <div className="flex justify-between gap-x-5 lg:gap-x-7.5">
-                    <div className="text-xl lg:text-xxl">
-                        Yatırımcılar, erken aşama yatırım yapın, tüm teknik süreçleri Komünite yönetsin
-                    </div>
-                    <figure>
-                        <x-svgs.increasing-arrow className="h-12 md:h-16" />
-                    </figure>
-                </div>
-                <a href="{{ route('fund') }}" title="Fırsatları Öğrenin" className="text-2xl md:text-2xl lg:text-2.25xl md:leading-snug flex items-center gap-x-3.5 hover:gap-x-5 md:gap-x-5 md:hover:gap-x-7 transition-all">Fırsatları
-                    Öğrenin
-                    <x-svgs.arrow className="w-12.5" />
-                </a>
-            </div>
-        </ContainerAtom>
-    </section>
-    <section className="mb-10 md:mb-15 lg:mb-20">
-        <ContainerAtom className="grid gap-y-10 md:gap-y-15 lg:gap-y-0 lg:grid-cols-[auto_35.625rem] lg:gap-x-25">
-            <figure className="justify-self-center">
-                <img loading="lazy" src="img/illustration-1-img.svg" alt="Illustration" className="w-80 lg:w-full object-cover">
-            </figure>
-            <div className="space-y-5 md:space-y-7.5">
-                <TitleH2Atom title="Komünite girişimcilere neler sunuyor?" />
-                <ul className="list-disc text-lg md:text-xl lg:text-xxl space-y-2 ml-7">
-                    <li>
-                        Üyelere özel Circle grubuna katılırsınız
-                    </li>
-                    <li>
-                        Onlarca farklı konuda, uzmanlar tarafından hazırlanmış eğitimlere ücretsiz erişirsiniz
-                    </li>
-                    <li>
-                        Haftada 4 gün, çoğunluğu topluluk üyelerine özel canlı yayınlara katılırsınız
-                    </li>
-                    <li>
-                        Katma Değer Fonu’na başvurup, fikriniz için fon alma fırsatı yakalarsınız
-                    </li>
-                    <li>
-                        Komünite iş ortaklarının sunduğu indirim ve fırsatlara erişirsiniz
-                    </li>
-                    <li>
-                        Komünite’nin fonladığı web3 ve NFT projelerinin erken satış ve whitelist’lerine katılırsınız
-                    </li>
-                </ul>
-                <x-atoms.button href="{{ route('community') }}" title="Detaylı Bilgi" className="font-bold md:text-xl lg:text-1xl py-3 px-6 md:py-3.5 md:px-7" />
-            </div>
-        </ContainerAtom>
-    </section>
-    <section className="mb-10 md:mb-15 lg:mb-20">
-        <ContainerAtom className="grid gap-y-10 md:gap-y-15 lg:gap-y-0 lg:grid-cols-[35.625rem_auto] gap-x-32">
-            <div className="space-y-5 md:space-y-7.5">
-                <TitleH2Atom title="Komünite yatırımcılara neler sunuyor?" />
-                <ul className="list-disc text-lg md:text-xl lg:text-xxl space-y-2 ml-7">
-                    <li>
-                        Komünite’nin değerlendirdiği ve fonlamaya uygun gördüğü mikro girişimlere ve dijital ürünlere
-                        Komünite ile birlikte yatırım yapma fırsatına sahip olursunuz
-                    </li>
-                    <li>
-                        Komünite’nin yatırımcı listesinde yer alan isimlere özel hazırlanan haftalık bültene erişirsiniz
-                    </li>
-                    <li>
-                        Yatırımcılara özel hazırladığımız online ve offline etkinliklere katılırsınız
-                    </li>
-                    <li>
-                        Komünite’nin fonladığı web3 ve NFT projelerinin erken satış ve whitelist’lerine katılırsınız
-                    </li>
-                </ul>
-                <x-atoms.button href="{{ route('funded') }}" title="Detaylı Bilgi" className="font-bold md:text-xl lg:text-1xl py-3 px-6 md:py-3.5 md:px-7" />
-            </div>
-            <figure className="justify-self-center">
-                <img loading="lazy" src="img/illustration-2.svg" alt="Illustration" className="w-80 lg:w-full object-cover">
-            </figure>
-        </ContainerAtom>
-    </section>
-    <section className="bg-white py-10 md:py-15 lg:py-20 mb-10 md:mb-15 lg:mb-20">
-        <ContainerAtom className="space-y-10 md:space-y-15 lg:space-y-20">
-            <div className="flex flex-col items-center text-center gap-y-5 md:gap-y-7.5">
-                <TitleH2Atom title="Melek yatırımlara bambaşka bir bakış: Katma Değer Fonu" className="sm:w-3/4" />
-                <TitleH4Atom title="Katma Değer Fonu, yaratıcı sektörlerde çalışan profesyoneller için bir mikro yatırım fonudur." className="sm:w-2/3" />
-            </div>
-            <CheckedItemMolecule title="Bir defa yap, hep sat!" desc="Türkiye’nin en yetenekli yaratıcılarının bir araya geldiği Komünite’ye katılın!" imgSrc="img/illustration-3-img.svg">
-                <div className="space-y-4">
-                    <x-atoms.check-item desc="$4.000 dolara kadar yatırım imkanı" />
-                    <x-atoms.check-item desc="İhtiyaç duyulan dijital ürünlere ücretsiz erişim" />
-                    <x-atoms.check-item desc="Lansman ve tanıtım destekleri" />
-                    <x-atoms.check-item desc="Satış ve pazarlama süreçlerinin yürütülmesi" />
-                    <x-atoms.check-item desc="Komünite uzmanları ile haftalık ilerleme görüşmeleri" />
-                    <x-atoms.check-item desc="Uzman geri bildirimlerine erkenden erişme imkanı" />
-                </div>
-            </CheckedItemMolecule>
-            <x-organisms.fund-products title="Fonladığımız ürünler" buttonTitle="Portfolyomuz" buttonLink="{{ route('funded') }}" />
-        </ContainerAtom>
-    </section>
+
     <section className="mb-10 md:mb-15 lg:mb-20">
         <ContainerAtom className="grid gap-y-7.5 lg:gap-y-0 lg:grid-cols-[auto_23.125rem] lg:gap-x-7.5">
             <div className="bg-navy text-bright space-y-5 md:space-y-7.5 py-9 px-7.5 md:py-11 md:px-10 rounded-lg">
                 <div className="flex items-center gap-x-3.5 lg:gap-x-5">
                     <TitleH3Atom title="Komünite" />
-                    <x-svgs.heart className="w-8 lg:w-12" />
+                    <SVGheart className="w-8 lg:w-12" />
                     <TitleH3Atom title="NFTler" />
                 </div>
                 <p className="text-lg md:text-1xl">Komünite Türk tasarımcıları, illüstratörleri ve sanatçıları dünya NFT çevrelerine açmak ve onların isimlerini büyütmek için bir NFT destek programı hazırlıyor.</p>
@@ -173,7 +16,7 @@
                 </figure>
             </div>
             <div className="bg-turquoise space-y-3.5 md:space-y-5 p-7.5 md:p-10 rounded-lg">
-                <x-svgs.the-bulten className="h-10" />
+                <SVGthe-bulten className="h-10" />
                 <BodyBoldAtom content="Kimsenin habere ihtiyacı yok, herkesin içgörüye ihtiyacı var." />
                 <BodyNoteAtom content="O yüzden burada haber yok, burada içgörü var." />
                 <BodyNoteAtom content="The Bülten ile girişimcilik, yaratıcı ekonomisi, yatırımlar ve uzaktan çalışma konularında bakış açısına sahip olun." />
@@ -234,7 +77,7 @@
                 <div className="bg-ghost space-y-5 lg:space-y-7.5 p-5 sm:p-7.5 lg:p-10 rounded-lg">
                     <figure>
                         <a href="/" title="Komünite">
-                            <x-svgs.logo className="h-8 lg:h-10 xl:h-11.5" />
+                            <SVGlogo className="h-8 lg:h-10 xl:h-11.5" />
                         </a>
                     </figure>
                     <TitleH2Atom title="Bir defa yap,
@@ -274,7 +117,7 @@
                             sahip olursunuz.
                         </p>
                     </div>
-                    <x-atoms.button href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
+                    <ButtonAtom href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
                     <div className="space-y-3.5 lg:space-y-5">
                         <p className="font-bold text-xxl md:text-2xl lg:text-2.25xl md:leading-snug">
                             Üyelik ücreti yıllık 1000 TL olarak belirlenmiştir.
@@ -288,7 +131,7 @@
     <section className="mb-10 md:mb-15 lg:mb-20">
         <ContainerAtom className="space-y-7.5 lg:space-y-10">
             <TitleH3Atom title="Türkiye’nin en yetenekli yaratıcıları bir araya geliyor!" />
-            <x-atoms.lead-regular content="Yeni disiplinler öğrenerek kariyerinizi ileriye götürmek, fikirlerinizi hayata geçirip büyütmek ve yaşam boyu arkadaşlar edinmek istiyorsanız Komünite tam size göre." />
+            <LeadRegularAtom content="Yeni disiplinler öğrenerek kariyerinizi ileriye götürmek, fikirlerinizi hayata geçirip büyütmek ve yaşam boyu arkadaşlar edinmek istiyorsanız Komünite tam size göre." />
             <div className="grid gap-y-7.5 lg:gap-y-0 lg:grid-cols-2 xl:grid-cols-[auto_41.875rem] lg:gap-x-7.5 items-center">
                 <p className="text-lg md:text-1xl">
                     Dünyanın dört bir yanında tasarımcılar, eğitmenler, geliştiriciler, müzisyenler ve birçok meslek
@@ -307,5 +150,3 @@
             </p>
         </ContainerAtom>
     </section>
-    <x-organisms.newsletter />
-</x-templates.base>

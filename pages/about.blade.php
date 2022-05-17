@@ -83,9 +83,9 @@
     <section className="mb-5 md:mb-7.5 lg:mb-10">
         <ContainerAtom>
             <div className="bg-ghost flex flex-col items-center gap-y-5 md:gap-y-0 md:flex-row md:justify-between rounded-lg p-5 md:p-7.5">
-                <a href="{{route('team')}}" title="Ekibimizi tanıyın" className="font-readex font-bold text-2xl md:text-2.5xl lg:text-4xl flex items-center gap-x-2.5 whitespace-nowrap">Ekibimizi Tanıyın
+                <a href="{{route('team')}title="Ekibimizi tanıyın" className="font-readex font-bold text-2xl md:text-2.5xl lg:text-4xl flex items-center gap-x-2.5 whitespace-nowrap">Ekibimizi Tanıyın
                     <figure>
-                        <x-svgs.chevron className="h-12 rotate-90 md:rotate-0" />
+                        <SVGchevron className="h-12 rotate-90 md:rotate-0" />
                     </figure>
                 </a>
                 <div className="flex gap-x-3.5 sm:gap-x-5 lg:gap-x-10">

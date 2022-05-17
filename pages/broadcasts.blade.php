@@ -32,8 +32,8 @@
                     </div>
                 </div>
                 <div className="space-y-5 md:space-y-7.5">
-                    <x-atoms.lead-regular content="Komünite’nin tüm canlı yayınlarından ve kaynak içeriklerinden haberdar olmak için Komünite’nin YouTube kanalına abone olun" />
-                    <x-atoms.button href="https://www.youtube.com/c/Kom%C3%BCnite" target="_blank" title="Youtube'da Abone Olun" className="font-bold text-xl md:text-1xl xl:text-2xl py-3 px-6 lg:py-3.5 lg:px-7.5" />
+                    <LeadRegularAtom content="Komünite’nin tüm canlı yayınlarından ve kaynak içeriklerinden haberdar olmak için Komünite’nin YouTube kanalına abone olun" />
+                    <ButtonAtom href="https://www.youtube.com/c/Kom%C3%BCnite" target="_blank" title="Youtube'da Abone Olun" className="font-bold text-xl md:text-1xl xl:text-2xl py-3 px-6 lg:py-3.5 lg:px-7.5" />
                 </div>
             </div>
             <aside className="bg-ghost p-5 lg:p-7.5 space-y-5 md:space-y-7.5 md:self-start rounded-lg">

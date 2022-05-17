@@ -29,7 +29,7 @@
                     <div className="space-y-5 md:space-y-7.5">
                         <div className="flex gap-x-5">
                             <figure>
-                                <x-svgs.check className="h-6 md:h-7.5" />
+                                <SVGcheck className="h-6 md:h-7.5" />
                             </figure>
                             <div className="space-y-1.5 md:space-y-2.5">
                                 <BodyBoldAtom content="Etkinliklere Katıl
@@ -39,7 +39,7 @@
                         </div>
                         <div className="flex gap-x-5">
                             <figure>
-                                <x-svgs.check className="h-6 md:h-7.5" />
+                                <SVGcheck className="h-6 md:h-7.5" />
                             </figure>
                             <div className="space-y-1.5 md:space-y-2.5">
                                 <BodyBoldAtom content="Katma Değer Fonu’na Başvur
@@ -50,7 +50,7 @@
                         </div>
                         <div className="flex gap-x-5">
                             <figure>
-                                <x-svgs.check className="h-6 md:h-7.5" />
+                                <SVGcheck className="h-6 md:h-7.5" />
                             </figure>
                             <div className="space-y-1.5 md:space-y-2.5">
                                 <BodyBoldAtom content="Bağımsız Geliştirici Ol!" />
@@ -59,8 +59,8 @@
                         </div>
                     </div>
                     <div className="grow flex flex-col gap-y-5 sm:gap-y-0 items-start sm:flex-row sm:items-center gap-x-5">
-                        <x-atoms.button href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold md:text-xl lg:text-1xl py-2.5 px-5 md:py-3 md:px-6" />
-                        <a href="{{route('about')}}" title="Detaylı bilgi" className="font-bold flex items-center gap-x-1 hover:gap-x-2 transition-all">Detaylı bilgi
+                        <ButtonAtom href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold md:text-xl lg:text-1xl py-2.5 px-5 md:py-3 md:px-6" />
+                        <a href="{{route('about')}title="Detaylı bilgi" className="font-bold flex items-center gap-x-1 hover:gap-x-2 transition-all">Detaylı bilgi
                             <span>→</span>
                         </a>
                     </div>
@@ -77,7 +77,7 @@
                     <div className="space-y-5 md:space-y-7.5">
                         <div className="flex gap-x-5">
                             <figure>
-                                <x-svgs.check className="h-6 md:h-7.5" />
+                                <SVGcheck className="h-6 md:h-7.5" />
                             </figure>
                             <div className="space-y-1.5 md:space-y-2.5">
                                 <BodyBoldAtom content="Mentörlük Al" />
@@ -86,7 +86,7 @@
                         </div>
                         <div className="flex gap-x-5">
                             <figure>
-                                <x-svgs.check className="h-6 md:h-7.5" />
+                                <SVGcheck className="h-6 md:h-7.5" />
                             </figure>
                             <div className="space-y-1.5 md:space-y-2.5">
                                 <BodyBoldAtom content="Ürününü Geliştir" />
@@ -95,7 +95,7 @@
                         </div>
                         <div className="flex gap-x-5">
                             <figure>
-                                <x-svgs.check className="h-6 md:h-7.5" />
+                                <SVGcheck className="h-6 md:h-7.5" />
                             </figure>
                             <div className="space-y-1.5 md:space-y-2.5">
                                 <BodyBoldAtom content="Bağımsız Geliştirici Ol!" />
@@ -104,8 +104,8 @@
                         </div>
                     </div>
                     <div className="grow flex flex-col gap-y-5 sm:gap-y-0 items-start sm:flex-row sm:items-center gap-x-5">
-                        <x-atoms.button href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold md:text-xl lg:text-1xl py-2.5 px-5 md:py-3 md:px-6" />
-                        <a href="{{route('about')}}" title="Detaylı bilgi" className="font-bold flex items-center gap-x-1 hover:gap-x-2 transition-all">Detaylı bilgi
+                        <ButtonAtom href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold md:text-xl lg:text-1xl py-2.5 px-5 md:py-3 md:px-6" />
+                        <a href="{{route('about')}title="Detaylı bilgi" className="font-bold flex items-center gap-x-1 hover:gap-x-2 transition-all">Detaylı bilgi
                             <span>→</span>
                         </a>
                     </div>
@@ -203,7 +203,7 @@
                 <BodyBoldAtom content="Masterclass Süreçleri" className="uppercase" />
                 <TitleH3Atom title="Masterclass ile ilgili dönemdeki en aktif 10 Komünite üyesini 6 haftalık çok özel bir hızlandırma programına alıyoruz. Yaratıcıların kişisel markalarını güçlendirmesi ve global yaratıcı ekonomisine nasıl entegre olacakları konusunda uzmanlardan aktarımlar, geri bildirimler almalarını sağlıyoruz." />
                 <BodyNoteAtom content="Türkiye’nin en yetenekli yaratıcılarının bir araya geldiği Komünite’ye katılın!" />
-                <x-atoms.button href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold md:text-xl lg:text-1xl py-2.5 px-5 md:py-3 md:px-6" />
+                <ButtonAtom href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold md:text-xl lg:text-1xl py-2.5 px-5 md:py-3 md:px-6" />
             </div>
             <div className="space-y-7.5 md:space-y-10 pl-7.5 border-l-2 border-solid border-almost-black py-9">
                 <div className="space-y-2.5 relative before:absolute before:h-7 before:w-7 before:lg:w-8 before:lg:h-8 before:bg-bright before:border-2 before:border-solid before:border-almost-black before:rounded-full before:-left-11.5 before:lg:-left-12">
@@ -229,7 +229,7 @@
             </div>
         </ContainerAtom>
     </section>
-    {{-- <section className="mb-10 md:mb-15 lg:mb-20">
+    {/*<section className="mb-10 md:mb-15 lg:mb-20">
         <ContainerAtom className=" flex flex-col items-center gap-y-7.5 md:gap-y-10 lg:gap-y-15">
             <TitleH2Atom title="Program mentorları" />
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-5 md:gap-x-7.5 gap-y-7.5 md:gap-y-10">
@@ -242,9 +242,9 @@
                 <x-molecules.team-card imgSrc="img/PP-ArasBilgen.png" name="Aras Bilgen" title="Advisor" twitterLink="#" linkedinLink="#" />
                 <x-molecules.team-card imgSrc="img/PP-AliKarabey.png" name="Ali Karabey" title="Managing Director @ 212" twitterLink="#" linkedinLink="#" />
             </div>
-            <x-atoms.button href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
+            <ButtonAtom href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
         </ContainerAtom>
-    </section> --}}
+    </section> */}
     <section className="mb-10 md:mb-15 lg:mb-20">
         <ContainerAtom>
             <div className="px-5 md:px-15 lg:px-25">
@@ -258,7 +258,7 @@
                 <div className="bg-ghost space-y-5 lg:space-y-7.5 p-5 sm:p-7.5 lg:p-10 rounded-lg">
                     <figure>
                         <a href="/" title="Komünite">
-                            <x-svgs.logo className="h-8 lg:h-10 xl:h-11.5" />
+                            <SVGlogo className="h-8 lg:h-10 xl:h-11.5" />
                         </a>
                     </figure>
                     <TitleH2Atom title="Bir defa yap,
@@ -298,7 +298,7 @@
                             sahip olursunuz.
                         </p>
                     </div>
-                    <x-atoms.button href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
+                    <ButtonAtom href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
                     <div className="space-y-3.5 lg:space-y-5">
                         <p className="font-bold text-xxl md:text-2xl lg:text-2.25xl md:leading-snug">
                             Üyelik ücreti yıllık 1000 TL olarak belirlenmiştir.

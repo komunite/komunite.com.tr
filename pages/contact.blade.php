@@ -10,35 +10,35 @@
                 <TitleH3Atom title="İletişim bilgileri" className="text-center lg:text-left" />
                 <div className="flex gap-x-7.5">
                     <figure>
-                        <x-svgs.contact-location className="h-6" />
+                        <SVGcontact-location className="h-6" />
                     </figure>
                     <address className="not-italic md:text-xl lg:text-1xl">112 Capitol Trail, Suite A749 <br>
                         Newark 19711 DE, USA</address>
                 </div>
                 <div className="flex items-center gap-x-7.5">
                     <figure>
-                        <x-svgs.contact-mail className="h-6" />
+                        <SVGcontact-mail className="h-6" />
                     </figure>
                     <a href="mailto:hey@komunite.com.tr" className="md:text-xl lg:text-1xl">hey@komunite.com.tr</a>
                 </div>
                 <div className="hidden lg:flex items-center lg:gap-x-5 xl:gap-x-7.5">
                     <a href="https://twitter.com/komunitecomtr" title="Komünite Twitter" target="_blank">
-                        <x-svgs.twitter className="h-6 md:h-8" />
+                        <SVGtwitter className="h-6 md:h-8" />
                     </a>
                     <a href="https://www.instagram.com/komunitecomtr/" title="Komünite Instagram" target="_blank">
-                        <x-svgs.instagram className="h-6 md:h-8" />
+                        <SVGinstagram className="h-6 md:h-8" />
                     </a>
                     <a href="https://tr.linkedin.com/company/komunite" title="Komünite Linkedin" target="_blank">
-                        <x-svgs.linkedin className="h-6 md:h-8" />
+                        <SVGlinkedin className="h-6 md:h-8" />
                     </a>
                     <a href="https://www.youtube.com/c/Kom%C3%BCnite" title="Komünite YouTube" target="_blank">
-                        <x-svgs.youtube className="h-6 md:h-8" />
+                        <SVGYouTube className="h-6 md:h-8" />
                     </a>
                     <a href="https://opensea.io/komunite" title="Komünite OpenSea" target="_blank">
-                        <x-svgs.opensea className="h-6 md:h-8" />
+                        <SVGopensea className="h-6 md:h-8" />
                     </a>
                     <a href="https://opensea.io/komunite" title="Komünite Tezos" target="_blank">
-                        <x-svgs.tezos className="h-6 md:h-8" />
+                        <SVGtezos className="h-6 md:h-8" />
                     </a>
                 </div>
             </div>
@@ -78,7 +78,7 @@
             <p className="text-lg md:text-1xl mb-7.5">
                 Günde 8 saat, her gün aynı işi yapıp, yılda bir defa zam almaktan sıkılmadınız mı?
             </p>
-            <x-atoms.button href="{{ route('career') }}" title="Kariyer Fırsatları"
+            <ButtonAtom href="{{ route('career') }title="Kariyer Fırsatları"
                 className="font-bold text-xl md:text-1xl xl:text-2xl py-3 px-6 lg:py-3.5 lg:px-7.5" />
         </ContainerAtom>
     </section>

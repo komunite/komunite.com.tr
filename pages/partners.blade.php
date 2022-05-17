@@ -6,7 +6,7 @@
                 <div className="relative">
                     <input type="text" className="bg-white md:text-lg lg:text-1xl md:placeholder:text-lg lg:md:placeholder:text-1xl placeholder:text-neptune focus-visible:outline-neptune rounded-tl-lg rounded-tr-lg md:rounded-tr-none  md:rounded-bl-lg py-5 pl-20 pr-12 w-full js-partnerSearch" placeholder="Hangi fırsatı arıyorsun?">
                     <button type="button" aria-label="Show categories" className="absolute left-10 top-1/2 tranform -translate-y-1/2">
-                        <x-svgs.search className="w-6 text-neptune" />
+                        <SVGsearch className="w-6 text-neptune" />
                     </button>
                 </div>
                 <div className="relative">
@@ -20,7 +20,7 @@
                         </option>
                     </select>
                     <button type="button" aria-label="Show categories" className=" rotate-90 absolute right-4 top-1/2 tranform -translate-y-1/2">
-                        <x-svgs.chevron className="w-6 text-neptune" />
+                        <SVGchevron className="w-6 text-neptune" />
                     </button>
                 </div>
             </div>
@@ -32,17 +32,17 @@
             <div className="grid md:grid-cols-3 gap-y-5 md:gap-x-5 lg:gap-x-7.5 md:gap-y-7.5 lg:gap-y-10">
                 <PartnersCard name="WWF Market" category="WWF Market" content="Türkiye'nin en kapsamlı şirket kurma platformu" coupon="%20 indirim" note="Hemen şirketinizi Mükellef ile kurun ve tüm finans süreçlerinizi dijital olarak yönetin.">
                     <figure>
-                        <x-svgs.mukellef className="h-8 md:h-11 lg:h-15" />
+                        <SVGmukellef className="h-8 md:h-11 lg:h-15" />
                     </figure>
                 </PartnersCard>
                 <PartnersCard name="Creator Station" content="Türkiye'nin en kapsamlı şirket kurma platformu" coupon="%20 indirim" note="Hemen şirketinizi Mükellef ile kurun ve tüm finans süreçlerinizi dijital olarak yönetin.">
                     <figure>
-                        <x-svgs.mukellef className="h-8 md:h-11 lg:h-15" />
+                        <SVGmukellef className="h-8 md:h-11 lg:h-15" />
                     </figure>
                 </PartnersCard>
                 <PartnersCard name="Mükellef" content="Türkiye'nin en kapsamlı şirket kurma platformu" coupon="%20 indirim" note="Hemen şirketinizi Mükellef ile kurun ve tüm finans süreçlerinizi dijital olarak yönetin.">
                     <figure>
-                        <x-svgs.mukellef className="h-8 md:h-11 lg:h-15" />
+                        <SVGmukellef className="h-8 md:h-11 lg:h-15" />
                     </figure>
                 </PartnersCard>
 
@@ -50,7 +50,7 @@
                     <div className="bg-ghost space-y-5 lg:space-y-7.5 p-5 sm:p-7.5 lg:p-10 rounded-lg">
                         <figure>
                             <a href="/" title="Komünite">
-                                <x-svgs.logo className="h-8 lg:h-10 xl:h-11.5" />
+                                <SVGlogo className="h-8 lg:h-10 xl:h-11.5" />
                             </a>
                         </figure>
                         <TitleH2Atom title="Bir defa yap,
@@ -90,7 +90,7 @@
                                 sahip olursunuz.
                             </p>
                         </div>
-                        <x-atoms.button href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
+                        <ButtonAtom href="https://egitim.komunite.com.tr/enroll/1387007?price_id=1609717" target="_blank" title="Hemen Katılın" className="font-bold text-xl md:text-2xl xl:text-3xl py-3.5 px-7.5 lg:py-5 lg:px-10" />
                         <div className="space-y-3.5 lg:space-y-5">
                             <p className="font-bold text-xxl md:text-2xl lg:text-2.25xl md:leading-snug">
                                 Üyelik ücreti yıllık 1000 TL olarak belirlenmiştir.
@@ -101,77 +101,77 @@
                 </div>
                 <PartnersCard name="Mükellef" content="Türkiye'nin en kapsamlı şirket kurma platformu" coupon="%20 indirim" note="Hemen şirketinizi Mükellef ile kurun ve tüm finans süreçlerinizi dijital olarak yönetin.">
                     <figure>
-                        <x-svgs.mukellef className="h-8 md:h-11 lg:h-15" />
+                        <SVGmukellef className="h-8 md:h-11 lg:h-15" />
                     </figure>
                 </PartnersCard>
                 <PartnersCard name="Mükellef" content="Türkiye'nin en kapsamlı şirket kurma platformu" coupon="%20 indirim" note="Hemen şirketinizi Mükellef ile kurun ve tüm finans süreçlerinizi dijital olarak yönetin.">
                     <figure>
-                        <x-svgs.mukellef className="h-8 md:h-11 lg:h-15" />
+                        <SVGmukellef className="h-8 md:h-11 lg:h-15" />
                     </figure>
                 </PartnersCard>
                 <PartnersCard name="Mükellef" content="Türkiye'nin en kapsamlı şirket kurma platformu" coupon="%20 indirim" note="Hemen şirketinizi Mükellef ile kurun ve tüm finans süreçlerinizi dijital olarak yönetin.">
                     <figure>
-                        <x-svgs.mukellef className="h-8 md:h-11 lg:h-15" />
+                        <SVGmukellef className="h-8 md:h-11 lg:h-15" />
                     </figure>
                 </PartnersCard>
                 <PartnersCard name="Mükellef" content="Türkiye'nin en kapsamlı şirket kurma platformu" coupon="%20 indirim" note="Hemen şirketinizi Mükellef ile kurun ve tüm finans süreçlerinizi dijital olarak yönetin.">
                     <figure>
-                        <x-svgs.mukellef className="h-8 md:h-11 lg:h-15" />
+                        <SVGmukellef className="h-8 md:h-11 lg:h-15" />
                     </figure>
                 </PartnersCard>
                 <PartnersCard name="Mükellef" content="Türkiye'nin en kapsamlı şirket kurma platformu" coupon="%20 indirim" note="Hemen şirketinizi Mükellef ile kurun ve tüm finans süreçlerinizi dijital olarak yönetin.">
                     <figure>
-                        <x-svgs.mukellef className="h-8 md:h-11 lg:h-15" />
+                        <SVGmukellef className="h-8 md:h-11 lg:h-15" />
                     </figure>
                 </PartnersCard>
                 <PartnersCard name="Mükellef" content="Türkiye'nin en kapsamlı şirket kurma platformu" coupon="%20 indirim" note="Hemen şirketinizi Mükellef ile kurun ve tüm finans süreçlerinizi dijital olarak yönetin.">
                     <figure>
-                        <x-svgs.mukellef className="h-8 md:h-11 lg:h-15" />
+                        <SVGmukellef className="h-8 md:h-11 lg:h-15" />
                     </figure>
                 </PartnersCard>
                 <PartnersCard name="Mükellef" content="Türkiye'nin en kapsamlı şirket kurma platformu" coupon="%20 indirim" note="Hemen şirketinizi Mükellef ile kurun ve tüm finans süreçlerinizi dijital olarak yönetin.">
                     <figure>
-                        <x-svgs.mukellef className="h-8 md:h-11 lg:h-15" />
+                        <SVGmukellef className="h-8 md:h-11 lg:h-15" />
                     </figure>
                 </PartnersCard>
                 <PartnersCard name="Mükellef" content="Türkiye'nin en kapsamlı şirket kurma platformu" coupon="%20 indirim" note="Hemen şirketinizi Mükellef ile kurun ve tüm finans süreçlerinizi dijital olarak yönetin.">
                     <figure>
-                        <x-svgs.mukellef className="h-8 md:h-11 lg:h-15" />
+                        <SVGmukellef className="h-8 md:h-11 lg:h-15" />
                     </figure>
                 </PartnersCard>
                 <PartnersCard name="Mükellef" content="Türkiye'nin en kapsamlı şirket kurma platformu" coupon="%20 indirim" note="Hemen şirketinizi Mükellef ile kurun ve tüm finans süreçlerinizi dijital olarak yönetin.">
                     <figure>
-                        <x-svgs.mukellef className="h-8 md:h-11 lg:h-15" />
+                        <SVGmukellef className="h-8 md:h-11 lg:h-15" />
                     </figure>
                 </PartnersCard>
                 <PartnersCard name="Mükellef" content="Türkiye'nin en kapsamlı şirket kurma platformu" coupon="%20 indirim" note="Hemen şirketinizi Mükellef ile kurun ve tüm finans süreçlerinizi dijital olarak yönetin.">
                     <figure>
-                        <x-svgs.mukellef className="h-8 md:h-11 lg:h-15" />
+                        <SVGmukellef className="h-8 md:h-11 lg:h-15" />
                     </figure>
                 </PartnersCard>
                 <PartnersCard name="Mükellef" content="Türkiye'nin en kapsamlı şirket kurma platformu" coupon="%20 indirim" note="Hemen şirketinizi Mükellef ile kurun ve tüm finans süreçlerinizi dijital olarak yönetin.">
                     <figure>
-                        <x-svgs.mukellef className="h-8 md:h-11 lg:h-15" />
+                        <SVGmukellef className="h-8 md:h-11 lg:h-15" />
                     </figure>
                 </PartnersCard>
                 <PartnersCard name="Mükellef" content="Türkiye'nin en kapsamlı şirket kurma platformu" coupon="%20 indirim" note="Hemen şirketinizi Mükellef ile kurun ve tüm finans süreçlerinizi dijital olarak yönetin.">
                     <figure>
-                        <x-svgs.mukellef className="h-8 md:h-11 lg:h-15" />
+                        <SVGmukellef className="h-8 md:h-11 lg:h-15" />
                     </figure>
                 </PartnersCard>
                 <PartnersCard name="Mükellef" content="Türkiye'nin en kapsamlı şirket kurma platformu" coupon="%20 indirim" note="Hemen şirketinizi Mükellef ile kurun ve tüm finans süreçlerinizi dijital olarak yönetin.">
                     <figure>
-                        <x-svgs.mukellef className="h-8 md:h-11 lg:h-15" />
+                        <SVGmukellef className="h-8 md:h-11 lg:h-15" />
                     </figure>
                 </PartnersCard>
                 <PartnersCard name="Mükellef" content="Türkiye'nin en kapsamlı şirket kurma platformu" coupon="%20 indirim" note="Hemen şirketinizi Mükellef ile kurun ve tüm finans süreçlerinizi dijital olarak yönetin.">
                     <figure>
-                        <x-svgs.mukellef className="h-8 md:h-11 lg:h-15" />
+                        <SVGmukellef className="h-8 md:h-11 lg:h-15" />
                     </figure>
                 </PartnersCard>
                 <PartnersCard name="Mükellef" content="Türkiye'nin en kapsamlı şirket kurma platformu" coupon="%20 indirim" note="Hemen şirketinizi Mükellef ile kurun ve tüm finans süreçlerinizi dijital olarak yönetin.">
                     <figure>
-                        <x-svgs.mukellef className="h-8 md:h-11 lg:h-15" />
+                        <SVGmukellef className="h-8 md:h-11 lg:h-15" />
                     </figure>
                 </PartnersCard>
             </div>

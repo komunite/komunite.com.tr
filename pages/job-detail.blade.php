@@ -3,7 +3,7 @@
         <ContainerAtom>
             <div className="flex flex-col items-center gap-y-7.5 lg:gap-y-10 px-5 md:px-15 lg:px-25">
                 <figure>
-                    <x-svgs.komunite-square className="h-42.5 w-42.5" />
+                    <SVGkomunite-square className="h-42.5 w-42.5" />
                 </figure>
                 <TitleH1Atom title="Growth Product Manager" className="text-center" />
 
@@ -14,7 +14,7 @@
                 </div>
                 <div className="flex items-center gap-x-2.5 text-neptune">
                     <figure>
-                        <x-svgs.location className="h-7" />
+                        <SVGlocation className="h-7" />
                     </figure>
                     <span className="font-bold text-lg md:text-1xl">Türkiye, USA</span>
                 </div>
@@ -81,7 +81,7 @@
             <div className="grid md:grid-cols-2 md:gap-x-7.5 gap-y-10 md:gap-y-15">
                 <x-molecules.career-card company="Komünite.com.tr" location="Türkiye, USA" title="Growth Product Expert">
                     <figure>
-                        <x-svgs.komunite-square className="h-16 w-16 rounded" />
+                        <SVGkomunite-square className="h-16 w-16 rounded" />
                     </figure>
                 </x-molecules.career-card>
                 <x-molecules.career-card company="Omnicourse" location="Türkiye, USA" title="Creator Relations Expert">
@@ -98,7 +98,7 @@
             <p className="text-lg md:text-1xl mb-7.5">
                 Günde 8 saat, her gün aynı işi yapıp, yılda bir defa zam almaktan sıkılmadınız mı?
             </p>
-            <x-atoms.button href="#" title="Kariyer Fırsatları" className="font-bold text-xl md:text-1xl xl:text-2xl py-3 px-6 lg:py-3.5 lg:px-7.5" />
+            <ButtonAtom href="#" title="Kariyer Fırsatları" className="font-bold text-xl md:text-1xl xl:text-2xl py-3 px-6 lg:py-3.5 lg:px-7.5" />
         </ContainerAtom>
     </section>
     <x-organisms.newsletter />
